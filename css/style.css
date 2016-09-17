@@ -18,15 +18,15 @@ header .container{
 }
 
 .logo .text{
-font: 30pt "MontserratBold";
-color: white;
-width: 55%;
-margin-left: 8px;
-display: inline-block;
+  font: 30pt "MontserratBold";
+  color: white;
+  width: 55%;
+  margin-left: 8px;
+  display: inline-block;
 }
 
 .logo .text span{
-color: #18cfab;
+  color: #18cfab;
 }
 
 .c-hamburger {
@@ -82,11 +82,11 @@ color: #18cfab;
 }
 
 /**
- * Style 1
- *
- * Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
- * Nothing too fancy, simple transition.
- */
+* Style 1
+*
+* Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
+* Nothing too fancy, simple transition.
+*/
 .c-hamburger--rot {
   background: #44433e;
 }
@@ -119,11 +119,11 @@ nav ul li a{
 }
 
 nav ul li:first-of-type{
-border-bottom: 2px solid #18cfab;
+  border-bottom: 2px solid #18cfab;
 };
 
 nav ul li:first-of-type a{
-color: #18cfab;
+  color: #18cfab;
 }
 
 #hexagon {
@@ -165,12 +165,6 @@ color: #18cfab;
   right:0;
 }
 
-.home{
-  background: #3c3c3c;
-  position: relative;
-  padding-bottom: 100px; /* временно */
-}
-
 .searchInput{
   position: absolute;
   top: 0;
@@ -186,10 +180,125 @@ color: #18cfab;
 }
 
 .searchInput input:last-of-type{
-border: 0;
-margin-left: -60px;
-background: #18cfab url(../img/Search-icon-copy.png) no-repeat 50% 50%;
-padding: 17px 25px;
-position: relative;
-top: 1px;
+  border: 0;
+  margin-left: -60px;
+  background: #18cfab url(../img/Search-icon-copy.png) no-repeat 50% 50%;
+  padding: 17px 25px;
+  position: relative;
+  top: 1px;
+}
+
+.home{
+  background: #3c3c3c;
+  padding-top: 200px;
+  position: relative;
+  padding-bottom: 126px;
+}
+
+.home .text p{
+  color: white;
+  text-align: center;
+}
+
+.home .text p:first-of-type{
+  font: 15pt "MontserratBold";
+}
+
+.home .text p:first-of-type span{
+  color: #18cfab;
+}
+
+.home .text p:nth-of-type(2) {
+  font: 40pt "MontserratBold";
+  padding: 25px 0;
+}
+
+.home .text p:last-of-type{
+  font: 20pt "MontserratLight";
+  color: #d4d4d4;
+  padding-bottom: 140px;
+}
+
+.home .buttons{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.home .buttons button{
+  border: none;
+  border-top: 5px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 23px 33px;
+  color: white;
+  font: 10pt "MontserratBold";
+  background: #18cfab;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.home .buttons button:last-of-type{
+  background: #00cbf6;
+}
+
+.slider {
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  height: 107px;
+  margin: 30px auto 0 auto;
+  width: 170px;
+  position: relative;
+}
+
+.slides {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  float: left;
+  list-style: none;
+  width: 170px;
+  height: 107px;
+}
+
+.switch{
+  margin:20px auto 0 auto;
+  width:170px;
+  position:relative;
+}
+
+#prev_slide, #next_slide {
+  padding: 22px 25px;;
+}
+
+#prev_slide {
+  background:  #3c4140 url(../img/PrevSlideHome.png) no-repeat 50% 50%;
+  position:  absolute;
+  left:  0;
+}
+
+#next_slide {
+  background: #18cfab url(../img/NextSlideHome.png) no-repeat 50% 50%;
+  position: absolute;
+  right: 0;
+}
+
+/* Test images */
+.slide:first-of-type{
+  background: url(../img/1.jpg);
+}
+
+.slide:nth-of-type(2) {
+  background: url(../img/2.jpg);
+}
+
+.slide:last-of-type{
+  background: url(../img/3.jpg);
 }
