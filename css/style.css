@@ -1,5 +1,195 @@
-﻿*{
-  box-sizing:border-box; 
-  margin: 0; 
+*{
+  box-sizing:border-box;
+  margin: 0;
   padding: 0;
+}
+
+header{
+  background: #44433e;
+  position: relative;
+}
+
+header .container{
+  padding:28px 0 20px 0;
+}
+
+.logo{
+  margin-bottom: 35px;
+}
+
+.logo .text{
+font: 30pt "MontserratBold";
+color: white;
+width: 55%;
+margin-left: 8px;
+display: inline-block;
+}
+
+.logo .text span{
+color: #18cfab;
+}
+
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 96px;
+  height: 54px;
+  font-size: 0;
+  text-indent: -9999px;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  margin-left: 20px;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 18px;
+  right: 18px;
+  height: 8px;
+  background: white;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: white;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -20px;
+}
+
+.c-hamburger span::after {
+  bottom: -20px;
+}
+
+/**
+ * Style 1
+ *
+ * Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
+ * Nothing too fancy, simple transition.
+ */
+.c-hamburger--rot {
+  background: #44433e;
+}
+
+.c-hamburger--rot span {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.c-hamburger--rot.is-active span {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#nav{
+  display: none
+}
+
+nav ul li{
+  display: block;
+  width:100%;
+  padding: 15px 0 15px 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font: 10pt "MontserratBold";
+  color: #b8b8b8;
+}
+
+nav ul li:first-of-type{
+border-bottom: 2px solid #18cfab;
+};
+
+nav ul li:first-of-type a{
+color: #18cfab;
+}
+
+#hexagon {
+  background: #18cfab;
+  margin-left: 35px;
+  position: relative;
+  font: 30pt "MontserratBold";
+  color: white;
+  padding: 0 20px;
+  width: 69px;
+  display: inline-block;
+}
+#hexagon:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 34px solid transparent;
+  border-bottom: 15px solid #18cfab;
+}
+#hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 34px solid transparent;
+  border-top: 15px solid #18cfab;
+}
+
+.searchIcon{
+  margin:10px 30px 0 0;
+  position:absolute;
+  right:0;
+}
+
+.home{
+  background: #3c3c3c;
+  position: relative;
+  padding-bottom: 100px; /* временно */
+}
+
+.searchInput{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: none;
+}
+
+.search{
+  padding: 22px 100px 20px 18px;
+  border: none;
+  font: 10pt "MontserratRegular";
+  background: white;
+}
+
+.searchInput input:last-of-type{
+border: 0;
+margin-left: -60px;
+background: #18cfab url(../img/Search-icon-copy.png) no-repeat 50% 50%;
+padding: 17px 25px;
+position: relative;
+top: 1px;
 }
