@@ -304,55 +304,49 @@ nav ul li:first-of-type a{
 }
 
 .options div{
-width:100%;
-position:relative;
-height:375px;
+  width:100%;
+  position:relative;
+  height:375px;
 }
 
 .options div:nth-of-type(odd){
-border-top: 8px solid #18cfab;
-color: #18cfab;
+  border-top: 8px solid #18cfab;
+  color: #18cfab;
 }
 
 .options div:nth-of-type(even){
-border-top: 8px solid white;
-color: white;
+  border-top: 8px solid white;
+  color: white;
 }
 
-.options div:first-of-type{
-background: #1c2a33;
+.options div:first-of-type,
+.options div:nth-of-type(3){
+  background: #1c2a33;
+}
+
+.options div:nth-of-type(2),
+.options div:last-of-type{
+  background: #18cfab;
 }
 
 .options div:first-of-type .image{
-background: url(../img/option1.png) no-repeat 50% 50%;
-height:238px;
-}
-
-.options div:nth-of-type(2){
-background: #18cfab;
+  background: url(../img/option1.png) no-repeat 50% 50%;
+  height:238px;
 }
 
 .options div:nth-of-type(2) .image{
-background: url(../img/option2.png) no-repeat 50% 50%;
-height:238px;
-}
-
-.options div:nth-of-type(3){
-background: #1c2a33;
+  background: url(../img/option2.png) no-repeat 50% 50%;
+  height:238px;
 }
 
 .options div:nth-of-type(3) .image{
-background: url(../img/option3.png) no-repeat 50% 50%;
-height:238px;
-}
-
-.options div:last-of-type{
-background: #18cfab;
+  background: url(../img/option3.png) no-repeat 50% 50%;
+  height:238px;
 }
 
 .options div:last-of-type .image{
-background: url(../img/option4.png) no-repeat 50% 50%;
-height:238px;
+  background: url(../img/option4.png) no-repeat 50% 50%;
+  height:238px;
 }
 
 .options div p{
