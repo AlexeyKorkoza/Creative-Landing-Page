@@ -402,3 +402,78 @@ nav ul li:first-of-type a{
   line-height: 20px;
   margin-top: 20px;
 }
+
+.company{
+  padding-top: 179px;
+background:#090f14;
+}
+
+.company img{
+  margin-bottom: 100px;
+}
+
+.company h1{
+  text-align: center;
+  color: white;
+  font: 30pt "MontserratRegular";
+  display: block;
+  margin: 100px 0 35px;
+}
+
+.tabs ul li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.tabs ul li:nth-of-type(2){
+  margin: 0 22px;
+}
+
+.tabs ul li a{
+  text-decoration: none;
+  color: white;
+  font: 13pt "MontserratBold";
+}
+
+.tabs ul li a:active{
+  border-top: 3px solid #18cfab;
+  color: #18cfab;
+}
+
+#History,#Biography,#Skills{
+  margin-top: 60px;
+}
+
+#History p{
+  color: #515558;
+  font: 10pt "MontserratLight";
+  display:block;
+}
+
+#History ul li{
+  list-style: none;
+  display: block;
+  margin-bottom: 52px;
+}
+
+#History ul li a{
+  text-decoration: none;
+  color: #bebebe;
+  font: 10pt "MontserratLight";
+}
+
+#History ul li img{
+  margin-right: 22px;
+}
+
+#Biography p{
+  color: #bebebe;
+  font: 10pt "MontserratLight";
+  line-height: 20px;
+}
+
+#Biography p:last-of-type{
+  display: block;
+  margin-top: 40px;
+}
