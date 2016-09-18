@@ -353,3 +353,52 @@ nav ul li:first-of-type a{
   font:17pt "MontserratBold";
   text-align: center;
 }
+
+.features{
+  padding-bottom: 95px;
+}
+
+.features h1{
+  text-align: center;
+  color: #4e4e4e;
+  display: block;
+  margin: 105px 0 38px;
+  font:30pt "MontserratRegular";
+}
+
+.features .line{
+  border:1px solid #18cfab;
+  border-left:none;
+  border-right:none;
+  height:5px;
+  width:65px;
+  margin:0 auto;
+  -webkit-transform:skewX(45deg);
+  transform:skewX(45deg);
+}
+
+.features section{
+  width:90%;
+  margin:70px auto 0 auto;
+}
+
+.features section h2{
+  color: #717171;
+  font:15pt "MontserratBold";
+  display: flex;
+}
+
+.features section h2:hover{
+  color: #18cfab;
+}
+
+.features section h2 img{
+  margin-right:22px;
+}
+
+.features section p{
+  color: #777777;
+  font: 10pt "MontserratLight";
+  line-height: 20px;
+  margin-top: 20px;
+}
