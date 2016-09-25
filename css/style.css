@@ -568,9 +568,9 @@ nav ul li:first-of-type a{
 }
 
 .work{
-  overflow: hidden;
   border-bottom: 1px solid #e1e1e1;
   background: #f8fcfe;
+  padding-bottom: 100px;
 }
 
 .work > h1{
@@ -643,6 +643,7 @@ nav ul li:first-of-type a{
 .rows > div{
   height: 210px;
   width: 285px;
+  margin: auto;
 }
 
 .rows h1{
@@ -703,16 +704,17 @@ nav ul li:first-of-type a{
 }
 
 .LoadMore{
-  width: 50%;
-  margin: 0 auto 100px;
+  margin: 0 auto;
+  width: 285px;
 }
 
 .LoadMore button{
   background:#18cfab;
-  color: white;
   border: none;
-  padding: 20px;
   font:11pt "MontserratBold";
+  padding:20px;
+  color:white;
+  width:285px;
 }
 
 .LoadMore button img{
@@ -820,6 +822,7 @@ nav ul li:first-of-type a{
   margin: 37px 0 74px;
   font: 13pt "MontserratRegular";
   color: #d8d8d8;
+  text-align: center;
 }
 
 .purchaseButton{
