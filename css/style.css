@@ -802,7 +802,7 @@ nav ul li:first-of-type a{
 
 .purchase{
   background: #40474b;
-  padding-top: 128px;
+  padding: 128px 0;
 }
 
 .purchase .container{
@@ -812,7 +812,8 @@ nav ul li:first-of-type a{
 
 .purchase h1{
   color: #18cfab;
-  font: 37pt "MontserratBold";
+  font: 34pt "MontserratBold";
+  text-align: center;
 }
 
 .purchase p{
@@ -822,7 +823,7 @@ nav ul li:first-of-type a{
 }
 
 .purchaseButton{
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -839,4 +840,83 @@ nav ul li:first-of-type a{
   background: #18cfab;
   width: 100%;
   margin-bottom: 15px;
+}
+
+.news{
+  padding-bottom: 100px;
+}
+
+.news > h1{
+  text-align: center;
+  font: 30pt "MontserratRegular";
+  color: #4e4e4e;
+  display: block;
+  margin: 100px 0 28px 0;
+}
+
+.news .line{
+  margin-bottom: 70px;
+}
+
+.new{
+  position: relative;
+  width: 261px;
+  margin: 0 auto 30px;
+}
+
+.new .image{
+  background: #9e9e9e;
+  height: 226px;
+}
+
+.new:hover .date{
+  background: #18cfab;
+}
+
+.new:hover .post p:first-of-type{
+  color: #18cfab
+}
+
+.new .date{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+  background: #203e38;
+}
+
+.new .date p{
+  color: white;
+  font: 13pt "MontserratRegular";
+  text-align: center;
+}
+
+.new .date p:first-of-type{
+  margin-bottom: 5px;
+}
+
+.post{
+  padding: 15px 0 12px 18px;
+  background: #f8fcfe;
+  border: 1px solid #ececec;
+}
+
+.post p{
+  font: 14pt "MontserratBold";
+  color: #717171;
+  margin-bottom: 15px;
+}
+
+.post span{
+  font: 11pt "MontserratLight";
+  color: #777777;
+}
+
+.post span:first-of-type{
+  padding-right: 20px;
+  border-right: 1px solid #777777;
+}
+
+.post span:last-of-type{
+  padding-left: 20px;
 }
