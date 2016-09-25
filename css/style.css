@@ -614,7 +614,6 @@ nav ul li:first-of-type a{
 
 .work_tabs_cont{
   margin: 68px 0 70px;
-
 }
 
 .work_tabs_cont > div {
@@ -637,7 +636,7 @@ nav ul li:first-of-type a{
   opacity: 1;
 }
 
-.work_cont{
+.work_tabs_cont{
   margin-top: 70px;
 }
 
@@ -720,4 +719,83 @@ nav ul li:first-of-type a{
   position: relative;
   top: 3px;
   margin-right: 5px;
+}
+
+.services > h1{
+  text-align: center;
+  font: 30pt "MontserratRegular";
+  color: #4e4e4e;
+  display: block;
+  margin: 100px 0 28px 0;
+}
+
+.service_tabs{
+  margin: 70px auto 0 20px;
+  width: 90%;
+}
+
+.service_tabs label{
+  color: #717171;
+  font: 13pt "MontserratRegular";
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+  background: #f8fcfe;
+}
+
+.service_tabs input {
+  position: absolute;
+  left: -9999px;
+}
+
+#service_tab1:checked  ~ #service_tab_1,
+#service_tab2:checked  ~ #service_tab_2,
+#service_tab3:checked  ~ #service_tab_3,
+#service_tab4:checked  ~ #service_tab_4,
+#service_tab5:checked  ~ #service_tab_5,
+#service_tab6:checked  ~ #service_tab_6 {
+  top: 0;
+  color: white;
+  background: #18cfab;
+}
+
+.service_tabs_cont{
+  margin: 25px 0 100px;
+}
+
+.service_tabs_cont > div {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  opacity: 0;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#service_tab1:checked ~ .service_tabs_cont #serviceWebDesign,
+#service_tab2:checked ~ .service_tabs_cont #serviceGraphicDesign,
+#service_tab3:checked ~ .service_tabs_cont #serviceOnlineSupport,
+#service_tab4:checked ~ .service_tabs_cont #serviceAppPages,
+#service_tab5:checked ~ .service_tabs_cont #serviceOnlineMarketing,
+#service_tab6:checked ~ .service_tabs_cont #serviceSeoService{
+  position: static;
+  left: 0;
+  opacity: 1;
+}
+
+.service_tabs_cont .content{
+  font: 11pt "MontserratLight";
+  color: #777777;
+  line-height: 22px;
+  margin-top: 22px;
+}
+
+.service_tabs_cont .image{
+  background: #797979;
+  height: 139px;
+  width: 192px;
 }
