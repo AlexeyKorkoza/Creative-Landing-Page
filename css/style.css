@@ -709,9 +709,15 @@ nav ul li:first-of-type a{
 }
 
 .LoadMore button{
-  font: 12pt "MontserratBold";
   background:#18cfab;
   color: white;
   border: none;
   padding: 20px;
+  font:11pt "MontserratBold";
+}
+
+.LoadMore button img{
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
 }
