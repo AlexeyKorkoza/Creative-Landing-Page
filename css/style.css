@@ -799,3 +799,44 @@ nav ul li:first-of-type a{
   height: 139px;
   width: 192px;
 }
+
+.purchase{
+  background: #40474b;
+  padding-top: 128px;
+}
+
+.purchase .container{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.purchase h1{
+  color: #18cfab;
+  font: 37pt "MontserratBold";
+}
+
+.purchase p{
+  margin: 37px 0 74px;
+  font: 13pt "MontserratRegular";
+  color: #d8d8d8;
+}
+
+.purchaseButton{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.purchase button{
+  border: none;
+  border-top: 5px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 23px 33px;
+  color: white;
+  font: 10pt "MontserratBold";
+  background: #18cfab;
+  width: 100%;
+  margin-bottom: 15px;
+}
