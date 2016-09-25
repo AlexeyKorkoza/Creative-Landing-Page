@@ -420,11 +420,11 @@ nav ul li:first-of-type a{
   margin: 100px 0 35px;
 }
 
-.tabs{
+.company_tabs{
   margin: 70px 0 0 20px;
 }
 
-.tabs label{
+.company_tabs label{
   color: white;
   font: 13pt "MontserratBold";
   cursor: pointer;
@@ -432,32 +432,32 @@ nav ul li:first-of-type a{
   display: block;
 }
 
-.tabs input {
+.company_tabs input {
   position: absolute;
   left: -9999px;
 }
 
-#tab_1:checked  ~ #tab_l1,
-#tab_2:checked  ~ #tab_l2,
-#tab_3:checked  ~ #tab_l3 {
+#company_tab1:checked  ~ #company_tab_1,
+#company_tab2:checked  ~ #company_tab_2,
+#company_tab3:checked  ~ #company_tab_3 {
   top: 0;
   color: #18cfab;
   border-top: 3px solid #18cfab;
 }
 
-.tabs_cont > div {
+.company_tabs_cont > div {
   position: absolute;
   left: -9999px;
   top: 0;
   opacity: 0;
-  -moz-transition: opacity .5s ease-in-out;
-  -webkit-transition: opacity .5s ease-in-out;
-  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
-#tab_1:checked ~ .tabs_cont #History,
-#tab_2:checked ~ .tabs_cont #Biography,
-#tab_3:checked ~ .tabs_cont #Skills{
+#company_tab1:checked ~ .company_tabs_cont #History,
+#company_tab2:checked ~ .company_tabs_cont #Biography,
+#company_tab3:checked ~ .company_tabs_cont #Skills{
   position: static;
   left: 0;
   opacity: 1;
@@ -565,4 +565,153 @@ nav ul li:first-of-type a{
 .orange span {
   background: #bb8a36;
   width: 80%;
+}
+
+.work{
+  overflow: hidden;
+  border-bottom: 1px solid #e1e1e1;
+  background: #f8fcfe;
+}
+
+.work > h1{
+  text-align: center;
+  font: 30pt "MontserratRegular";
+  color: #4e4e4e;
+  display: block;
+  margin: 100px 0 28px 0;
+}
+
+.work_tabs{
+  margin: 70px auto 0 20px;
+  width: 90%;
+}
+
+.work_tabs label{
+  color: #979797;
+  font: 13pt "MontserratBold";
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.work_tabs input {
+  position: absolute;
+  left: -9999px;
+}
+
+#work_tab1:checked  ~ #work_tab_1,
+#work_tab2:checked  ~ #work_tab_2,
+#work_tab3:checked  ~ #work_tab_3,
+#work_tab4:checked  ~ #work_tab_4,
+#work_tab5:checked  ~ #work_tab_5 {
+  top: 0;
+  color: #18cfab;
+  border-top: 3px solid #18cfab;
+}
+
+.work_tabs_cont{
+  margin: 68px 0 70px;
+
+}
+
+.work_tabs_cont > div {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  opacity: 0;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#work_tab1:checked ~ .work_tabs_cont #WorkAll,
+#work_tab2:checked ~ .work_tabs_cont #WorkGraphicDesign,
+#work_tab3:checked ~ .work_tabs_cont #WorkWebDesign,
+#work_tab4:checked ~ .work_tabs_cont #WorkLadingPages,
+#work_tab5:checked ~ .work_tabs_cont #WorkWordpress{
+  position: static;
+  left: 0;
+  opacity: 1;
+}
+
+.work_cont{
+  margin-top: 70px;
+}
+
+.rows > div{
+  height: 210px;
+  width: 285px;
+}
+
+.rows h1{
+  color: #18cfab;
+  font: 11pt "MontserratBold";
+  text-align: center;
+  display: none;
+}
+
+.rows p{
+  text-align: center;
+  font: 9pt "MontserratLight";
+  color: #8a8a8a;
+  margin-top: 15px;
+  display: none;
+}
+
+.rows > div:nth-of-type(odd){
+  background: #8a8a8a;
+}
+
+.rows > div:nth-of-type(even){
+  background: #24413e;
+}
+
+.rows > div:hover{
+  background: white;
+  border:1px solid #ebebeb;
+  border-top: 3px solid #18cfab;
+}
+
+.rows > div:hover h1,
+.rows > div:hover .images,
+.rows > div:hover p{
+  display: block;
+}
+
+.images{
+  text-align: center;
+  margin: 43px 0 33px;
+  display: none;
+}
+
+.images div{
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;;
+}
+
+.images div:first-of-type{
+  background:url(../img/DesignSearch.png) no-repeat 50%;
+  border: 1px solid #18cfab;
+}
+
+.images div:last-of-type{
+  background: #18cfab url(../img/Design1.png) no-repeat 50%;
+}
+
+.LoadMore{
+  width: 50%;
+  margin: 0 auto 100px;
+}
+
+.LoadMore button{
+  font: 12pt "MontserratBold";
+  background:#18cfab;
+  color: white;
+  border: none;
+  padding: 20px;
 }
