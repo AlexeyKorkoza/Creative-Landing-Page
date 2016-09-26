@@ -800,6 +800,8 @@ nav ul li:first-of-type a{
   background: #797979;
   height: 139px;
   width: 192px;
+  float: left;
+  margin: 5px 5px 0 0;
 }
 
 .purchase{
