@@ -925,3 +925,93 @@ nav ul li:first-of-type a{
 .post span:last-of-type{
   padding-left: 20px;
 }
+
+.funfact > div:nth-of-type(odd){
+  background: #25333c;
+  border-top: 8px solid #18cfab;
+  padding: 60px 0 55px;
+}
+
+.funfact > div:nth-of-type(even){
+  border-top: 8px solid #25333c;
+  background: #18cfab;
+  padding: 60px 0 55px;
+}
+
+.icon{
+  border-radius: 75%;
+  padding: 20px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.Bag,
+.Basket{
+}
+
+.Man,
+.Location{
+}
+
+.iconBag,
+.iconBasket,
+.iconMan,
+.iconLocation{
+  border-radius: 50%;
+  width: 164px;
+  margin: 0 auto 25px;
+  padding: 25px;
+}
+
+.iconBag,
+.iconBasket{
+  border: 1px solid #18cfab;
+}
+
+.iconMan,
+.iconLocation{
+  border: 1px solid #25333c;
+}
+
+.iconBag > div,
+.iconMan > div,
+.iconBasket > div,
+.iconLocation > div{
+  border-radius: 75%;
+  padding: 50px;
+}
+
+.iconBag > div{
+  background: #18cfab url(../img/Bag.png) no-repeat 50%;
+}
+
+.iconMan > div{
+  background: #25333c url(../img/Man.png) no-repeat 50%;
+}
+
+.iconBasket > div{
+  background: #18cfab url(../img/Basket.png) no-repeat 50%;
+}
+
+.iconLocation > div{
+  background: #25333c url(../img/location.png) no-repeat 50%;
+}
+
+.funfact > div p:first-of-type{
+  color: white;
+  font: 32pt "MontserratRegular";
+  text-align: center;
+}
+
+.funfact > div:nth-of-type(odd) p:last-of-type{
+  font: 13pt "MontserratLight";
+  color: #18cfab;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.funfact > div:nth-of-type(even) p:last-of-type{
+  font: 13pt "MontserratLight";
+  color: #25333c;
+  text-align: center;
+}
