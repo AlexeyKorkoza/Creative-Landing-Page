@@ -1014,4 +1014,131 @@ nav ul li:first-of-type a{
   font: 13pt "MontserratLight";
   color: #25333c;
   text-align: center;
+  margin-top: 10px;
+}
+
+.princingTable{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.princingTable h1{
+  text-align: center;
+  font: 30pt "MontserratRegular";
+  color: #4e4e4e;
+  display: block;
+  margin: 100px 0 28px 0;
+}
+
+.princingTable1,
+.princingTable2,
+.princingTable3,
+.princingTable4{
+  background: #f8fcfe;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.princingTable1 > div,
+.princingTable2 > div,
+.princingTable3 > div,
+.princingTable4 > div{
+  padding: 19px 0 14px;
+  font: 11pt "MontserratRegular";
+  color: #777777;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.princingTable1 > div:first-of-type,
+.princingTable2 > div:first-of-type,
+.princingTable3 > div:first-of-type,
+.princingTable4 > div:first-of-type{
+  font: 20pt "MontserratBold";
+  color: #717171;
+  padding: 23px 0 5px 0;
+  position: relative;
+}
+
+.princingTable1 > div:first-of-type p,
+.princingTable2 > div:first-of-type p,
+.princingTable3 > div:first-of-type p,
+.princingTable4 > div:first-of-type p{
+  margin-bottom: 10px;
+}
+
+.cost{
+  color: white;
+  font: 30pt "MontserratBold";
+  padding: 30px 0;
+  width: 100%;
+  background: #2e4a5b;
+}
+
+.cost span{
+  font: 10pt "MontserratRegular";
+}
+
+.princingTable1{
+  margin-top: 68px;
+}
+
+.princingTable1 > div:last-of-type,
+.princingTable2 > div:last-of-type,
+.princingTable3 > div:last-of-type,
+.princingTable4 > div:last-of-type{
+  border-bottom: none;
+}
+
+.princingTable1 > div:last-of-type button,
+.princingTable2 > div:last-of-type button,
+.princingTable3 > div:last-of-type button,
+.princingTable4 > div:last-of-type button{
+  background: #2e4a5b;
+  padding: 20px 53px 20px 48px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font: 11pt "MontserratBold";
+}
+
+.princingTable3 > div:last-of-type button,
+.princingTable3 .cost{
+  background: #18cfab;
+}
+
+.princingTable3 > div:first-of-type p{
+  color: #18cfab;
+}
+
+.princingTable3{
+  box-shadow: 0 0 5px 5px rgba(225,225,225,225);
+  position: relative;
+}
+
+.offer{
+  border-bottom: 30px solid #18cfab;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  width: 95px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -36px;
+  top: -20px;
+}
+
+.offer:before {
+  content: "OFFER";
+  position: relative;
+  top: 28px;
+  color: white;
+  font: 10pt "MontserratRegular";
+  right: 5px;
+}
+
+.princingTable4{
+  margin-bottom: 100px;
 }
