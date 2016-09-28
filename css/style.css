@@ -170,6 +170,10 @@ nav ul li:first-of-type a{
   border-top: 15px solid #18cfab;
 }
 
+main{
+  overflow: hidden;
+}
+
 .searchIcon{
   margin:10px 30px 0 0;
   position:absolute;
