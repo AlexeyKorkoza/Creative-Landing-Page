@@ -645,6 +645,38 @@
         </div>
       </div>
     </div>
+    <div class="feedback">
+      <h1>What People Say About theHam</h1>
+      <div class="line"></div>
+      <div id="container" class="feedback-slider">
+        <div id="example">
+          <div id="slides">
+            <div class="slides_container">
+              <div>
+                <div class="quotes"></div>
+                <p>11111Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                <div class="position">
+                  <span>HASAN ALI</span><br/>
+                  <span>UX Designer</span>
+                </div>
+                <div class="image"></div>
+              </div>
+              <div>
+                <div class="quotes"></div>
+                <p>22222Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                <div class="position">
+                  <span>HASAN ALI</span><br/>
+                  <span>UX Designer</span>
+                </div>
+                <div class="image"></div>
+              </div>
+            </div>
+            <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <!--end block-->
 
@@ -655,6 +687,32 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+  <script>
+    $(function(){
+      $('#slides').slides({
+        preload: true,
+        preloadImage: 'img/loading.gif',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true,
+        animationStart: function(){
+          $('.caption').animate({
+            bottom:-35
+          },100);
+        },
+        animationComplete: function(current){
+          $('.caption').animate({
+            bottom:0
+          },200);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log(current);
+          };
+        }
+      });
+    });
+  </script>
 
 </body>
 </html>

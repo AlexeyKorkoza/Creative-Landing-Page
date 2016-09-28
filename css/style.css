@@ -1120,14 +1120,14 @@ nav ul li:first-of-type a{
 }
 
 .offer{
-  border-bottom: 30px solid #18cfab;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  width: 95px;
-  transform: rotate(45deg);
   position: absolute;
   right: -36px;
   top: -20px;
+  width: 95px;
+  border-bottom: 30px solid #18cfab;
+  transform: rotate(45deg);
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
 }
 
 .offer:before {
@@ -1141,4 +1141,159 @@ nav ul li:first-of-type a{
 
 .princingTable4{
   margin-bottom: 100px;
+}
+
+.feedback{
+  background: #2e404d;
+  padding: 100px 0 120px 0;
+}
+
+.feedback h1{
+  color: white;
+  font: 32pt "MontserratRegular";
+  margin: 0 20px 20px 20px;
+}
+
+/* slider */
+#container {
+  width:90%;
+  margin:68px auto 0 auto;
+  position:relative;
+  z-index:0;
+  background:#2e404d;
+  height:523px;
+}
+
+.quotes{
+  background: url(../img/quotes.png) no-repeat;
+}
+
+.slides_container > div p{
+  color: #bbbbbb;
+  font: 10pt "MontserratLight";
+  line-height: 20px;
+  margin-bottom: 42px;
+}
+
+.position{
+  text-align: center;
+}
+
+.position span:first-of-type{
+  color: #18cfab;
+  font: 13pt "MontserratBold";
+  text-align: center;
+}
+
+.position span:last-of-type{
+  font: 12pt "MontserratRegular";
+  color: #bbbbbb;
+  text-align: center;
+}
+
+#example {
+  width:90%;
+  position:relative;
+  height:340px;
+}
+
+#slides {
+  position: absolute;
+  width: 100%;
+}
+
+.slides_container {
+  height:450px;
+  margin:0 auto;
+  width:100%;
+  overflow:hidden;
+  position:relative;
+}
+
+.pagination {
+  margin:57px auto 0;
+  width:100px;
+  justify-content:center;
+  display:none;
+}
+
+.pagination li {
+  margin:0 1px;
+}
+
+.pagination li a {
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 66px;
+  width: 66px;
+  background: #2b5f62;
+}
+
+.pagination li a span{
+  background: #878787;
+  border-radius: 50%;
+  padding: 22px 27px;
+  position: relative;
+  top: 25px;
+  left: 6px;
+}
+
+.pagination li.current a span{
+  border: 1px solid white;
+}
+
+.pagination li.current{
+  position: relative;
+  top:-12px;
+}
+
+.slides_container > div .image{
+  background: url(../img/BigImage.png) no-repeat;
+  height: 180px;
+  width: 165px;
+  margin: 27px auto 0;
+}
+
+#slides .next,#slides .prev {
+  position:absolute;
+  text-decoration:none;
+}
+
+.prev{
+  left: 5px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev,.next{
+  border: 1px solid #bbbbbb;
+  height: 31px;
+  width: 32px;
+  color: #989c9f;
+}
+
+.prev:before,
+.next:before{
+  text-decoration: none;
+  font: 15pt "MontserratLight";
+  position: absolute;
+  left: 10px;
+}
+
+.prev:before{
+  content: '<';
+}
+
+.next:before{
+  content: '>';
+}
+
+.prev:hover,.next:hover{
+  background: #18cfab;
+  text-decoration: none;
+  border: 1px solid #18cfab;
+  color: white;
 }
