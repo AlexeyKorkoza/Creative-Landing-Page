@@ -1195,8 +1195,8 @@ main{
   text-align: center;
 }
 
-#example {
-  width:90%;
+#feedback-slider {
+  width:100%;
   position:relative;
   height:340px;
 }
