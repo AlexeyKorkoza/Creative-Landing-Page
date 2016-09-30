@@ -1301,3 +1301,116 @@ main{
   border: 1px solid #18cfab;
   color: white;
 }
+
+.our-team .line{
+  margin-bottom: 70px;
+}
+
+.our-team{
+  padding-bottom: 100px;
+}
+
+.our-team h1{
+  text-align: center;
+  font: 30pt "MontserratRegular";
+  color: #4e4e4e;
+  display: block;
+  margin: 100px 20px 28px 20px;
+}
+
+.team{
+  margin: 29px auto 0 auto;
+  width: 78%;
+  overflow: hidden;
+}
+
+.team-image{
+  width: 268px;
+  height: 228px;
+  background: #dae9e6;
+  display: table;
+}
+
+.view{
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+
+.view a{
+  text-decoration: none;
+  display: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+
+.team-image:hover .view a{
+  display: block;
+}
+
+.team-position{
+  background: #2e4a5b;
+  padding:21px 0 21px 25px;
+  border-bottom: 1px solid #c1f2e9;
+}
+
+.team-position span:first-of-type{
+  color: white;
+  font: 13pt "MontserratBold";
+}
+
+.team-position span:last-of-type{
+  color:#257f7b;
+  font: 10pt "MontserratLight";
+  clear:both;
+  display:block;
+  margin-top:15px;
+}
+
+.social{
+  padding: 67px 66.3px 0 0;
+  float: left;
+}
+
+.facebook{
+  background: #2e4a5b url(../img/Facebook.png) no-repeat 50% 50%;
+}
+
+.twitter{
+  background: #2e4a5b url(../img/Twitter.png) no-repeat 50% 50%;
+  border-left: 1px solid #c7cfd3;
+}
+
+.skype{
+  background: #2e4a5b url(../img/Skype.png) no-repeat 50% 50%;
+  border-left: 1px solid #c7cfd3;
+}
+
+.vimeo{
+  background: #2e4a5b url(../img/Vimeo.png) no-repeat 50% 50%;
+  border-left: 1px solid #c7cfd3;
+}
+
+.facebook:hover{
+  background: #18cfab url(../img/Facebook.png) no-repeat 50% 50%;
+}
+
+.twitter:hover{
+  background: #18cfab url(../img/Twitter.png) no-repeat 50% 50%;
+}
+
+.skype:hover{
+  background: #18cfab url(../img/Skype.png) no-repeat 50% 50%;
+}
+
+.vimeo:hover{
+  background: #18cfab url(../img/Vimeo.png) no-repeat 50% 50%;
+}
+
+.team-position:hover{
+  background: #18cfab;
+}
+
+.team-position span:last-of-type:hover{
+  color: #2e4a5b;
+}
