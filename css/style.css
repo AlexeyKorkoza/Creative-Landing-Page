@@ -811,23 +811,23 @@ main{
   margin: 5px 5px 0 0;
 }
 
-.purchase{
+.purchase1{
   background: #40474b;
   padding: 128px 0;
 }
 
-.purchase .container{
+.purchase1 .container{
   margin: 0 auto;
   width: 90%;
 }
 
-.purchase h1{
+.purchase1 h1{
   color: #18cfab;
   font: 34pt "MontserratBold";
   text-align: center;
 }
 
-.purchase p{
+.purchase1 p{
   margin: 37px 0 74px;
   font: 13pt "MontserratRegular";
   color: #d8d8d8;
@@ -839,7 +839,7 @@ main{
   margin: 0 auto;
 }
 
-.purchase button{
+.purchase1 button{
   border: none;
   border-top: 5px solid white;
   border-top-left-radius: 5px;
@@ -1419,4 +1419,79 @@ main{
 
 .team-position span:last-of-type:hover{
   color: #2e4a5b;
+}
+
+.purchase2{
+  padding: 130px 0 0 0;
+  background: #233641;
+  overflow: hidden;
+}
+
+.purchase2 p:first-of-type{
+  color: white;
+  font: 30pt "MontserratBold";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.purchase2 p:last-of-type{
+  color: #18cfab;
+  font: 30pt "MontserratLight";
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin: 15px 0 97px 0;
+}
+
+
+.purchase2 > img{
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.checks{
+  margin: 0 auto;
+  width: 75%;
+  overflow: hidden;
+}
+
+.checkMarksText,.checkMarks{
+  float:left;
+}
+
+.checkMarks img{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.checkMarksText{
+  margin-left: 20px;
+}
+
+.checkMarksText ul li{
+  font: 11pt "MontserratLight";
+  color: #f7f7f7;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.purchaseButton2{;
+  width: 65%;;
+  margin: 70px auto 215px auto;;
+}
+
+.purchaseButton2 button{
+  border: none;
+  border-top: 5px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 23px 33px;
+  color: white;
+  font: 10pt "MontserratBold";
+  background: #18cfab;
+  width: 100%;
+  margin-bottom: 15px;
 }
