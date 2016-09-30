@@ -478,8 +478,11 @@ main{
 #History p{
   color: #bebebe;
   font: 10pt "MontserratLight";
+  line-height: 25px;
+}
+
+#History p:last-of-type{
   display:block;
-  line-height: 20px;
   margin-bottom: 35px
 }
 
@@ -1193,6 +1196,9 @@ main{
   font: 12pt "MontserratRegular";
   color: #bbbbbb;
   text-align: center;
+  clear: both;
+  display: block;
+  margin-top: 15px;
 }
 
 #feedback-slider {
