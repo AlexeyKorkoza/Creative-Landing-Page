@@ -1495,3 +1495,72 @@ main{
   width: 100%;
   margin-bottom: 15px;
 }
+
+.contact{
+  padding: 128px 0 131px 0;
+}
+
+.contact .image{
+  height: 547px;
+  width: 90%;
+  background: #9e9e9e;
+  margin: 0 auto;
+}
+
+.contact > h1{
+  text-align: center;
+  font: 30pt "MontserratRegular";
+  color: #4e4e4e;
+  display: block;
+  margin: 50px 0 28px 0;
+}
+
+.contact form{
+  margin-top: 90px;
+  display: block;
+}
+
+.contact .Name,
+.contact .Email,
+.contact button,
+.contact .Message{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  color: #90aebd;
+  border: 1px solid #dce6e4;
+  font: 10pt "MontserratLight";
+}
+
+.contact .Name,
+.contact .Email{
+  padding: 22px 0 22px 18px;
+}
+
+.contact .Name{
+  margin-bottom: 12px;
+}
+
+.contact .Email,
+.contact .Message{
+  margin-bottom: 17px;
+}
+
+.contact .Message{
+  padding: 22px 0 148px 18px;
+  resize: none;
+}
+
+.contact button{
+  border: none;
+  border-bottom: 5px solid #08bf9b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 23px 33px;
+  color: white;
+  font: 10pt "MontserratBold";
+  background: #18cfab;
+  margin-bottom: 128px;
+}
