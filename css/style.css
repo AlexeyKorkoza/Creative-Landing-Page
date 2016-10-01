@@ -1651,6 +1651,10 @@ footer{
   border-bottom: 1px solid #294453;
 }
 
+.tags-newsletter{
+  width: 100%;
+}
+
 .tags{
   padding-bottom: 35px;
   border-bottom: 1px solid #294453;
