@@ -1564,3 +1564,188 @@ main{
   background: #18cfab;
   margin-bottom: 128px;
 }
+
+footer{
+  background: #1c2b33;
+  overflow: hidden;
+  padding-top: 131px;
+}
+
+.address h1{
+  font: 30pt "MontserratBold";
+  color: white;
+}
+
+.address h1 span{
+  font: 30pt "MontserratLight";
+  color: #18cfab;
+}
+
+.address > p{
+  color: #b2b2b2;
+  font: 11pt "MontserratLight";
+  margin: 36px 0 80px;
+}
+
+.address-office p,
+.address-contact p{
+  color: #b2b2b2;
+  font: 11pt "MontserratLight";
+  line-height: 23px;
+}
+
+.address-office{
+  margin-bottom: 36px;
+}
+
+.recent-posts{
+  margin-top: 30px;
+}
+
+.recent-posts > h1{
+  color: white;
+  font: 15pt "MontserratBold";
+}
+
+.recent{
+  padding: 35px 0 30px;
+  display: table;
+}
+
+.recent > .image{
+  width: 66px;
+  height: 78px;
+  background: #959595;
+  float: left;
+  margin-right: 15px;
+}
+
+.recent section{
+  overflow: hidden;
+}
+
+.recent h1{
+  font: 15pt "MontserratBold";
+  color: white;
+}
+
+.post1 h1{
+  color: #18cfab;
+}
+
+.recent p{
+  font: 11pt "MontserratLight";
+  color: #586166;
+}
+
+.recent p:first-of-type{
+  margin: 15px 0 20px;
+}
+
+.recent p:last-of-type{
+  color: #e3e4e4;
+}
+
+.post2{
+  border-top: 1px solid #294453;
+  border-bottom: 1px solid #294453;
+}
+
+.tags{
+  padding-bottom: 35px;
+  border-bottom: 1px solid #294453;
+  overflow: hidden;
+}
+
+.tags > h1{
+  color: white;
+  font: 15pt "MontserratBold";
+  display: block;
+  margin-bottom: 50px;
+}
+
+.tag-row{
+  clear: both;
+}
+
+.tag-row div{
+  padding: 10px 12px;
+  border: 1px solid #d7d7d7;
+  color: #b8b8b8;
+  font: 8pt "MontserratLight";
+  width: 66px;
+  height: 37px;
+  float: left;
+  margin: 0 0 7px 9px;
+}
+
+.tag-row div:hover{
+  color: white;
+  background: #d7d7d7;
+}
+
+.newsletter{
+  padding-top: 35px;
+}
+
+.newsletter h1{
+  color: white;
+  font: 15pt "MontserratBold";
+}
+
+.newsletter p{
+  padding:45px 0 22px 0;
+  font: 11pt "MontserratLight";
+  color: #586166;
+  line-height: 23px;
+}
+
+.enterMail input{
+  border: none;
+  background: #22353f;
+  padding: 15px 0 15px 13px;
+  font: 11pt "MontserratLight";
+  color: #434f55;
+}
+
+.enterMail button{
+  padding: 16px 12px 14px 10px;
+  font: 11pt "MontserratBold";
+  background: #294453;
+  color:#18cfab;
+  border: none;
+  margin-left: -4px;
+}
+
+.flicke-feed{
+  margin-top: 25px;
+}
+
+.flicke-feed h1{
+  color: white;
+  font: 15pt "MontserratBold";
+  display: block;
+  margin-bottom: 53px;
+}
+
+.flicke-feed-row div{
+  height: 75px;
+  width: 75px;
+  background: #959595;
+  margin: 0 0 14px 14px;
+  float: left;
+}
+
+.flicke-feed-row{
+  clear: both;
+}
+
+.copyright{
+  clear: both;
+  background:#22353f;
+  color:#5a656b;
+  padding: 47px 0;
+  font: 11pt "MontserratLight";
+  text-align: center;
+  margin-top: 128px;
+}
