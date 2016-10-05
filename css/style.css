@@ -572,7 +572,7 @@ main{
 .work{
   border-bottom: 1px solid #e1e1e1;
   background: #f8fcfe;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .work h1{
@@ -580,7 +580,7 @@ main{
   font: 30pt "MontserratRegular";
   color: #4e4e4e;
   display: block;
-  margin: 100px 0 28px 0;
+  margin-bottom: 28px;
 }
 
 .work_tabs{
