@@ -584,7 +584,7 @@ main{
 }
 
 .work_tabs{
-  margin: 70px auto 0 20px;
+  margin-top: 70px;
 }
 
 .work_tabs label{
@@ -1139,6 +1139,7 @@ main{
   color: white;
   font: 32pt "MontserratRegular";
   margin: 0 20px 20px 20px;
+  text-align: center;
 }
 
 /* slider */
@@ -1503,9 +1504,7 @@ main{
 .contact .Email,
 .contact button,
 .contact .Message{
-  width: 90%;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
   color: #90aebd;
   border: 1px solid #dce6e4;
   font: 10pt "MontserratLight";
