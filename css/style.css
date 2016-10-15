@@ -1718,7 +1718,7 @@ footer{
   height: 75px;
   width: 75px;
   background: #959595;
-  margin: 0 0 14px 14px;
+  margin: 0 14px 14px 0;
   float: left;
 }
 
