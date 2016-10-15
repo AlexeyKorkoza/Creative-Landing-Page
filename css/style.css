@@ -1660,7 +1660,7 @@ footer{
   width: 66px;
   height: 37px;
   float: left;
-  margin: 0 0 7px 9px;
+  margin: 0 9px 7px 0;
 }
 
 .tag-row div:hover{
@@ -1746,6 +1746,6 @@ footer{
 .our-team .container,
 .contact .container,
 footer .container{
-  margin: 0 auto;
   width: 90%;
+  margin: 0 auto;
 }
