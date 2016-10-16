@@ -1,1 +1,125 @@
-﻿
+﻿@media only screen and (min-width : 570px) {
+
+  .home .buttons{
+    text-align: center;
+  }
+
+  .home .buttons button{
+    width: auto;
+  }
+
+  .home .buttons button:first-of-type{
+    margin-right: 28px;
+  }
+
+  .rows > div{
+    width: 251px;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .news{
+    overflow: hidden;
+  }
+
+  .news .container{
+    margin: 0 auto;
+    width: 97%;
+  }
+
+  .princingTable1,
+  .princingTable2,
+  .princingTable3,
+  .princingTable4{
+    width: 48%;
+    display: inline-block;
+  }
+
+  .news {
+    overflow: hidden;
+  }
+
+  .news .container {
+    margin: 0 auto;
+    width: 97%;
+  }
+
+  .new {
+    float: left;
+  }
+
+  .new:nth-of-type(even) {
+    margin-right: 28px;
+  }
+
+  .home .buttons {
+    text-align: center;
+  }
+
+  .home .buttons button {
+    width: auto;
+  }
+
+  .home .buttons button:first-of-type {
+    margin-right: 28px;
+  }
+
+  .princingTable1,
+  .princingTable2,
+  .princingTable3,
+  .princingTable4 {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .princingTable2,
+  .princingTable4{
+    margin-left: -4px;
+  }
+
+  .our-team .container{
+    width: 558px;
+  }
+
+  .our-team{
+    overflow: hidden;
+  }
+
+  .team{
+    display: inline-block;
+  }
+
+  .team:nth-of-type(odd){
+    margin-left: 20px;
+  }
+
+  .tags-newsletter,
+  .flicke-feed{
+    width: 50%;
+    float: left;
+  }
+
+  .flicke-feed{
+    margin: 0 0 0 25px;
+    width: 45%;
+  }
+
+  .flicke-feed > h1,
+  .tags > h1,
+  .newsletter > h1{
+    text-align: left;
+  }
+
+  .LoadMore{
+    margin-top: 70px;
+  }
+
+  .work_tabs{
+    overflow:hidden;
+  }
+
+  .work_tabs_cont .rows{
+    margin: 0 auto;
+    width: 512px;
+  }
+}
