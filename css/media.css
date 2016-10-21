@@ -1,4 +1,4 @@
-﻿@media only screen and (min-width : 570px) {
+﻿@media only screen and (min-width : 570px) and (max-width: 767px) {
 
   .home .buttons{
     text-align: center;
@@ -18,37 +18,25 @@
     margin-bottom: 10px;
   }
 
+  .breaking{
+    overflow: hidden;
+  }
+
+  .breaking .container{
+    margin: 0 auto;
+    width: 97%;
+  }
+
   .news{
-    overflow: hidden;
-  }
-
-  .news .container{
+    width: 557px;
     margin: 0 auto;
-    width: 97%;
-  }
-
-  .princingTable1,
-  .princingTable2,
-  .princingTable3,
-  .princingTable4{
-    width: 48%;
-    display: inline-block;
-  }
-
-  .news {
-    overflow: hidden;
-  }
-
-  .news .container {
-    margin: 0 auto;
-    width: 97%;
   }
 
   .new {
     float: left;
   }
 
-  .new:nth-of-type(even) {
+  .new:nth-of-type(odd) {
     margin-right: 28px;
   }
 
@@ -93,6 +81,19 @@
     margin-left: 20px;
   }
 
+  .LoadMore{
+    margin-top: 70px;
+  }
+
+  .work_tabs{
+    overflow:hidden;
+  }
+
+  .work_tabs_cont .rows{
+    margin: 0 auto;
+    width: 512px;
+  }
+
   .tags-newsletter,
   .flicke-feed{
     width: 50%;
@@ -110,16 +111,9 @@
     text-align: left;
   }
 
-  .LoadMore{
-    margin-top: 70px;
-  }
-
-  .work_tabs{
-    overflow:hidden;
-  }
-
-  .work_tabs_cont .rows{
-    margin: 0 auto;
-    width: 512px;
+  .address-office,
+  .address-contact{
+    width: 49%;
+    display: inline-block;
   }
 }
