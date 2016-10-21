@@ -1574,7 +1574,7 @@ footer{
 }
 
 .address-office{
-  margin-bottom: 36px;
+  margin-bottom: 36px;;
 }
 
 .recent-posts{
@@ -1733,6 +1733,10 @@ footer{
   padding: 47px 0;
   font: 11pt "MontserratLight";
   text-align: center;
+}
+
+.copyright .text{
+  color: #18cfab;
 }
 
 /* containers */
