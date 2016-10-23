@@ -391,13 +391,13 @@ main{
 }
 
 .features section h2 img{
-  margin-right:22px;
+  margin-right: 22px;
 }
 
 .features section p{
   color: #777777;
   font: 10pt "MontserratLight";
-  line-height: 20px;
+  line-height: 25px;
   margin-top: 20px;
 }
 
@@ -497,11 +497,10 @@ main{
   margin-bottom: 0;
   position: relative;
   top: 5px;
-
 }
 
 #Biography{
-  padding:0 20px 20px 0;
+  padding:0 20px 160px 0;
 }
 
 #Biography p{
@@ -828,8 +827,8 @@ main{
 }
 
 .purchaseButton{
-  width: 65%;
   margin: 0 auto;
+  width: 65%;
 }
 
 .purchase1 button{
@@ -843,8 +842,8 @@ main{
   color: white;
   font: 10pt "MontserratBold";
   background: #18cfab;
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .breaking{
@@ -1203,13 +1202,8 @@ main{
 
 .pagination {
   margin:57px auto 0;
-  width:100px;
-  justify-content:center;
   display:none;
-}
-
-.pagination li {
-  margin:0 1px;
+  width:100px;
 }
 
 .pagination li a {
@@ -1217,26 +1211,27 @@ main{
   overflow: hidden;
   border-radius: 50%;
   height: 66px;
-  width: 66px;
+  width: 65px;
   background: #2b5f62;
 }
 
 .pagination li a span{
   background: #878787;
   border-radius: 50%;
-  padding: 22px 27px;
+  padding: 20px 27px;
   position: relative;
-  top: 25px;
   left: 6px;
+  top: 25px;
 }
 
 .pagination li.current a span{
   border: 1px solid white;
+  left: 5px;
 }
 
 .pagination li.current{
   position: relative;
-  top:-12px;
+  top: -12px;
 }
 
 .slides_container > div .image{
@@ -1550,27 +1545,28 @@ footer{
 }
 
 .address h1{
-  font: 30pt "MontserratBold";
-  color: white;
+  font: 35pt "MontserratBold";
+  color: #18cfab;
   text-align: center;
 }
 
 .address h1 span{
-  font: 30pt "MontserratLight";
-  color: #18cfab;
+  font: 35pt "MontserratLight";
+  color: white;
 }
 
 .address > p{
   color: #b2b2b2;
   font: 11pt "MontserratLight";
   margin: 36px 0 80px;
+  line-height: 25px;
 }
 
 .address-office p,
 .address-contact p{
   color: #b2b2b2;
   font: 11pt "MontserratLight";
-  line-height: 23px;
+  line-height: 25px;
 }
 
 .address-office{
@@ -1604,7 +1600,7 @@ footer{
 }
 
 .recent h1{
-  font: 15pt "MontserratBold";
+  font: 14pt "MontserratBold";
   color: white;
 }
 
@@ -1638,6 +1634,7 @@ footer{
   padding-bottom: 35px;
   border-bottom: 1px solid #294453;
   overflow: hidden;
+  width: 240px;
 }
 
 .tags > h1{
@@ -1670,6 +1667,7 @@ footer{
 
 .newsletter{
   padding-top: 35px;
+  width: 240px;
 }
 
 .newsletter h1{
@@ -1681,8 +1679,8 @@ footer{
 .newsletter p{
   padding:45px 0 22px 0;
   font: 11pt "MontserratLight";
-  color: #586166;
   line-height: 23px;
+  color:#e3e4e4;
 }
 
 .enterMail input{

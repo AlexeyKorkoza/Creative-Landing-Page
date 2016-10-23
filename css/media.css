@@ -1,21 +1,26 @@
-﻿@media only screen and (min-width : 570px) and (max-width: 767px) {
+﻿@media only screen and (min-width : 570px) {
 
   .home .buttons{
     text-align: center;
-  }
-
-  .home .buttons button{
-    width: auto;
   }
 
   .home .buttons button:first-of-type{
     margin-right: 28px;
   }
 
+  .home .buttons button {
+    width: auto;
+  }
+
   .rows > div{
     width: 251px;
     float: left;
     margin-bottom: 10px;
+  }
+
+  #History ul li {
+    width: 49%;
+    display: inline-block;
   }
 
   .breaking{
@@ -40,18 +45,6 @@
     margin-right: 28px;
   }
 
-  .home .buttons {
-    text-align: center;
-  }
-
-  .home .buttons button {
-    width: auto;
-  }
-
-  .home .buttons button:first-of-type {
-    margin-right: 28px;
-  }
-
   .princingTable1,
   .princingTable2,
   .princingTable3,
@@ -63,6 +56,14 @@
   .princingTable2,
   .princingTable4{
     margin-left: -4px;
+  }
+
+  .purchaseButton{
+    text-align: center;
+  }
+
+  .purchase1 button{
+    width: auto;
   }
 
   .our-team .container{
@@ -94,6 +95,25 @@
     width: 512px;
   }
 
+  .purchaseButton2{
+    text-align: left;
+    width: 75%;
+  }
+
+  .purchaseButton2 button{
+    width: auto;
+  }
+
+  .pagination{
+    margin: 0 auto;
+    display: table;
+  }
+
+  .pagination li{
+    display: table-cell;
+    padding-right: 30px;
+  }
+
   .tags-newsletter,
   .flicke-feed{
     width: 50%;
@@ -116,4 +136,51 @@
     width: 49%;
     display: inline-block;
   }
+}
+
+@media only screen and (min-width : 768px) {
+
+  .features section{
+    display: inline-block;
+    width: 43%;
+  }
+
+  .features section:nth-of-type(odd){
+    margin-right: 80px;
+  }
+
+  .address,.recent-posts{
+    float: left;
+  }
+
+  .address{
+    width: 40%;
+    margin-right: 40px;
+  }
+
+  .recent-posts{
+    width: 50%;
+  }
+
+  .address-office,
+  .address-contact{
+    width: 100%;
+  }
+
+  .address h1{
+    text-align: left;
+  }
+
+  .recent-posts{
+    margin-top: 15px;
+  }
+
+  .recent p:first-of-type{
+  font: 10pt "MontserratLight";
+  margin: 10px 0 20px;
+  line-height: 24px;
+  color: #b2b2b2;
+  }
+
+
 }
