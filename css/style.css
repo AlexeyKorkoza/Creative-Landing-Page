@@ -801,18 +801,6 @@ main{
   margin: 5px 20px 0 0;
 }
 
-.triangle-down{
-  display: none;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #18cfab;
-  position: relative;
-  top: 30px;
-  left: 40%;
-}
-
 .service_tabs label:first-of-type .triangle-down{
   display: block;
 }

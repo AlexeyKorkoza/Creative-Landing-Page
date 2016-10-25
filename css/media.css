@@ -144,6 +144,14 @@
     padding-right: 502px;
   }
 
+  .company_tabs label{
+    display: inline-block;
+  }
+
+  .company_tabs label:nth-of-type(2){
+    margin: 0 20px;
+  }
+
   .features section{
     display: inline-block;
     width: 43%;
@@ -227,6 +235,18 @@
   .options .container > div {
     width: 50%;
     float: left;
+  }
+
+  .triangle-down{
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #18cfab;
+  position: relative;
+  top: 30px;
+  left: 40%;
   }
 
   .work_tabs{
