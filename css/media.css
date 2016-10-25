@@ -75,7 +75,7 @@
   }
 
   .team{
-    display: inline-block;
+    float: left;
   }
 
   .team:nth-of-type(odd){
@@ -140,6 +140,10 @@
 
 @media only screen and (min-width : 768px) {
 
+  .search{
+    padding-right: 502px;
+  }
+
   .features section{
     display: inline-block;
     width: 43%;
@@ -181,6 +185,133 @@
   line-height: 24px;
   color: #b2b2b2;
   }
+}
 
+@media only screen and (min-width : 992px) {
 
+  header .container{
+    padding: 28px 0 0 0;
+  }
+
+  .c-hamburger--rot{
+    display: none;
+  }
+
+  #nav{
+    display: block;
+    margin-left: 35px;
+    position: relative;
+    top: 2px;
+    z-index: 1;
+  }
+
+  #nav li{
+    display: inline-block;
+    width: auto;
+    margin-right: 17px;
+    padding: 0 0 55px 0;
+  }
+
+  .searchIcon{
+    margin-top: -5px;
+  }
+
+  main{
+    position: relative;
+  }
+
+  .options{
+  overflow: hidden;
+  }
+
+  .options .container > div {
+    width: 50%;
+    float: left;
+  }
+
+  .work_tabs{
+    width: 755px;
+    margin: 70px auto 0 auto;
+  }
+
+  .work_tabs_cont .rows{
+    width: 755px;
+  }
+
+  .work_tabs label{
+    width: auto;
+    padding: 25px 27px 20px 27px;
+    margin-right: -5px;
+    display: inline-block;
+  }
+
+  .service_tabs label{
+    width: auto;
+    float: left;
+    padding: 27px 14px 30px;
+    border: 1px solid #ebebeb;
+    border-right: none;
+    margin-bottom: 15px;
+  }
+
+  .service_tabs label:last-of-type{
+    border-right: 1px solid #ebebeb;
+  }
+
+  .service_tabs_cont{
+    clear: both;
+  }
+
+  .news {
+    width: 839px;
+    margin: 0 auto;
+  }
+
+  .new{
+    margin: 0 0 30px 0;
+  }
+
+  .new:nth-of-type(odd) {
+    margin-right: 0;
+  }
+
+  .new:nth-of-type(3n+2) {
+    margin: 0 28px;
+  }
+
+  .funfact{
+    overflow: hidden;
+  }
+
+  .Bag,
+  .Man,
+  .Basket,
+  .Location{
+    width: 50%;
+    float: left;
+  }
+
+  .princingTable1, .princingTable2, .princingTable3, .princingTable4{
+    width: 33%;
+  }
+
+  .princingTable1, .princingTable2 {
+    margin-right: 0;
+  }
+
+  .princingTable4{
+    margin-left: 0;
+  }
+
+  .our-team .container{
+    width: 832px;
+  }
+
+  .team:nth-of-type(odd) {
+    margin-left: 0;
+  }
+
+  .team:nth-of-type(3n+3) {
+    margin: 29px 20px 0 20px;
+  }
 }

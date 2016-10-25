@@ -75,3 +75,15 @@ function prevSlide(){
     }
     $('.slides').animate({left: -currentSlide*slideWidth},170).data('current',currentSlide);
 }
+
+function checkService(index){
+  var tabs = document.getElementsByName('service_tab');
+  var triangleDowns = document.getElementsByClassName('triangle-down');
+  for(var i = 0; i < tabs.length; i++){
+    if(i === index - 1){
+      triangleDowns[i].style.display = "block";
+    } else {
+      triangleDowns[i].style.display = "none";
+    }
+  }
+}

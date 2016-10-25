@@ -754,15 +754,11 @@ main{
   left: -9999px;
 }
 
-#service_tab1:checked  ~ #service_tab_1,
-#service_tab2:checked  ~ #service_tab_2,
-#service_tab3:checked  ~ #service_tab_3,
-#service_tab4:checked  ~ #service_tab_4,
-#service_tab5:checked  ~ #service_tab_5,
-#service_tab6:checked  ~ #service_tab_6 {
+.service_tabs input:checked + label{
   top: 0;
   color: white;
   background: #18cfab;
+  padding-bottom: 20px;
 }
 
 .service_tabs_cont{
@@ -802,7 +798,23 @@ main{
   height: 139px;
   width: 192px;
   float: left;
-  margin: 5px 5px 0 0;
+  margin: 5px 20px 0 0;
+}
+
+.triangle-down{
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #18cfab;
+  position: relative;
+  top: 30px;
+  left: 40%;
+}
+
+.service_tabs label:first-of-type .triangle-down{
+  display: block;
 }
 
 .purchase1{

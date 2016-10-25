@@ -209,7 +209,6 @@
           <label for="work_tab4">Lading Pages</label>
           <input type="radio" id="work_tab5" name="work_tab">
           <label for="work_tab5">Wordpress</label>
-          <div style="clear:both"></div>
           <div class="work_tabs_cont">
             <div class="rows" id="WorkAll">
               <div>
@@ -403,19 +402,30 @@
         <h1>Our Services</h1>
         <div class="line"></div>
         <div class="service_tabs">
-          <input type="radio" id="service_tab1" name="tab" checked="checked">
-          <input type="radio" id="service_tab2" name="tab">
-          <input type="radio" id="service_tab3" name="tab">
-          <input type="radio" id="service_tab4" name="tab">
-          <input type="radio" id="service_tab5" name="tab">
-          <input type="radio" id="service_tab6" name="tab">
-          <label for="service_tab1" id="service_tab_1">Web Design</label>
-          <label for="service_tab2" id="service_tab_2">Graphic Design</label>
-          <label for="service_tab3" id="service_tab_3">Online Support</label>
-          <label for="service_tab4" id="service_tab_4">App Pages</label>
-          <label for="service_tab5" id="service_tab_5">Online Marketing</label>
-          <label for="service_tab6" id="service_tab_6">Seo Service</label>
-          <div style="clear:both"></div>
+          <input type="radio" id="service_tab1" name="service_tab" checked="checked" onclick="checkService('1')">
+          <label for="service_tab1">Web Design
+          <div class="triangle-down"></div>
+          </label>
+          <input type="radio" id="service_tab2" name="service_tab" onclick="checkService('2')">
+          <label for="service_tab2">Graphic Design
+          <div class="triangle-down"></div>
+          </label>
+          <input type="radio" id="service_tab3" name="service_tab" onclick="checkService('3')">
+          <label for="service_tab3">Online Support
+          <div class="triangle-down"></div>
+          </label>
+          <input type="radio" id="service_tab4" name="service_tab" onclick="checkService('4')">
+          <label for="service_tab4">App Pages
+          <div class="triangle-down"></div>
+          </label>
+          <input type="radio" id="service_tab5" name="service_tab" onclick="checkService('5')">
+          <label for="service_tab5">Online Marketing
+          <div class="triangle-down"></div>
+          </label>
+          <input type="radio" id="service_tab6" name="service_tab" onclick="checkService('6')">
+          <label for="service_tab6">Seo Service
+          <div class="triangle-down"></div>
+          </label>
           <div class="service_tabs_cont">
             <div id="serviceWebDesign">
               <div class="image"></div>
