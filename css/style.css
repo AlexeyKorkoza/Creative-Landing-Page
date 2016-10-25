@@ -131,7 +131,7 @@ nav ul li a{
 
 nav ul li:first-of-type{
   border-bottom: 2px solid #18cfab;
-};
+}
 
 nav ul li:first-of-type a{
   color: #18cfab;
@@ -320,12 +320,12 @@ main{
 }
 
 .options .container div:nth-of-type(odd){
-  border-top: 8px solid #18cfab;
+  border-top: 5px solid #18cfab;
   color: #18cfab;
 }
 
 .options .container div:nth-of-type(even){
-  border-top: 8px solid white;
+  border-top: 10px solid white;
   color: white;
 }
 
@@ -591,10 +591,16 @@ main{
   font: 13pt "MontserratBold";
   cursor: pointer;
   border: 1px solid #ebebeb;
+  border-right: none;
   width: 100%;
-  display: block;
   padding: 15px 0;
   text-align: center;
+  display: block;
+  position: relative;
+}
+
+.work_tabs label:last-of-type{
+   border-right: 1px solid #ebebeb;
 }
 
 .work_tabs input {
@@ -602,14 +608,10 @@ main{
   left: -9999px;
 }
 
-#work_tab1:checked  ~ #work_tab_1,
-#work_tab2:checked  ~ #work_tab_2,
-#work_tab3:checked  ~ #work_tab_3,
-#work_tab4:checked  ~ #work_tab_4,
-#work_tab5:checked  ~ #work_tab_5 {
-  top: 0;
+.work_tabs input:checked + label{
   color: #18cfab;
-  border-top: 3px solid #18cfab;
+  border: 1px solid #ebebeb;
+  border-top: 2px solid #18cfab;
 }
 
 .work_tabs_cont{
