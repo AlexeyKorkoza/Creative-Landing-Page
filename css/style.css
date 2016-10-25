@@ -117,23 +117,23 @@ header .container{
   display: none
 }
 
-nav ul li{
+#nav li{
   display: block;
   width:100%;
   padding: 15px 0 15px 30px;
 }
 
-nav ul li a{
+#nav li a{
   text-decoration: none;
   font: 10pt "MontserratBold";
   color: #b8b8b8;
 }
 
-nav ul li:first-of-type{
+#nav li:first-of-type{
   border-bottom: 2px solid #18cfab;
 }
 
-nav ul li:first-of-type a{
+#nav ul li:first-of-type a{
   color: #18cfab;
 }
 
