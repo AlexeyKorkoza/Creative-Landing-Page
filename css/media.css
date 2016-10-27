@@ -1,6 +1,6 @@
-﻿@media only screen and (min-width : 570px) {
+﻿@media only screen and (min-width: 570px) {
 
-  .company_tabs label{
+  .company_tabs label {
     display: inline-block;
   }
 
@@ -8,11 +8,11 @@
     margin: 0 20px;
   }
 
-  .home .buttons{
+  .home .buttons {
     text-align: center;
   }
 
-  .home .buttons button:first-of-type{
+  .home .buttons button:first-of-type {
     margin-right: 28px;
   }
 
@@ -22,7 +22,7 @@
 
   .rows .row1 > div,
   .rows .row2 > div,
-  .rows .row3 > div{
+  .rows .row3 > div {
     width: 251px;
     float: left;
     margin-bottom: 10px;
@@ -33,16 +33,16 @@
     display: inline-block;
   }
 
-  .breaking{
+  .breaking {
     overflow: hidden;
   }
 
-  .breaking .container{
+  .breaking .container {
     margin: 0 auto;
     width: 97%;
   }
 
-  .news{
+  .news {
     width: 574px;
     margin: 0 auto;
   }
@@ -52,7 +52,7 @@
     margin: 0 26px 30px 0;
   }
 
-  .princingTable .container{
+  .princingTable .container {
     width: 566px;
   }
 
@@ -65,90 +65,90 @@
   }
 
   .princingTable2,
-  .princingTable4{
+  .princingTable4 {
     margin-left: -4px;
   }
 
-  .purchaseButton{
+  .purchaseButton {
     text-align: center;
   }
 
-  .purchase1 button{
+  .purchase1 button {
     width: auto;
   }
 
-  .our-team .container{
+  .our-team .container {
     width: 558px;
   }
 
-  .our-team{
+  .our-team {
     overflow: hidden;
   }
 
-  .team{
+  .team {
     float: left;
   }
 
-  .team:nth-of-type(odd){
+  .team:nth-of-type(odd) {
     margin-left: 20px;
   }
 
-  .LoadMore{
+  .LoadMore {
     margin-top: 70px;
   }
 
-  .work_tabs{
-    overflow:hidden;
+  .work_tabs {
+    overflow: hidden;
   }
 
-  .work_tabs_cont .rows{
+  .work_tabs_cont .rows {
     margin: 0 auto;
     width: 512px;
   }
 
-  .purchaseButton2{
+  .purchaseButton2 {
     width: 75%;
     float: left;
     margin-left: -23px;
   }
 
-  .purchaseButton2 button{
+  .purchaseButton2 button {
     width: auto;
   }
 
-  .purchaseImage img{
+  .purchaseImage img {
     width: 100%;
   }
 
-  .pagination{
+  .pagination {
     margin: 0 auto;
     display: table;
   }
 
-  .pagination li{
+  .pagination li {
     display: table-cell;
     padding-right: 30px;
   }
 
   .tags-newsletter,
-  .flicke-feed{
+  .flicke-feed {
     width: 50%;
     float: left;
   }
 
-  .flicke-feed{
+  .flicke-feed {
     margin: 0 0 0 25px;
     width: 45%;
   }
 
   .flicke-feed > h1,
   .tags > h1,
-  .newsletter > h1{
+  .newsletter > h1 {
     text-align: left;
   }
 
   .address-office,
-  .address-contact{
+  .address-contact {
     width: 49%;
     display: inline-block;
   }
@@ -156,81 +156,81 @@
 
 @media only screen and (min-width: 615px) {
 
-  .progress-bar{
+  .progress-bar {
     width: 556px;
   }
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
 
-  .search{
+  .search {
     padding-right: 502px;
   }
 
-  .features section{
+  .features section {
     display: inline-block;
     width: 43%;
   }
 
-  .features section:nth-of-type(odd){
+  .features section:nth-of-type(odd) {
     margin-right: 80px;
   }
 
-  .address,.recent-posts{
+  .address, .recent-posts {
     float: left;
   }
 
-  .address{
+  .address {
     width: 40%;
     margin-right: 40px;
   }
 
-  .recent-posts{
+  .recent-posts {
     width: 50%;
   }
 
   .address-office,
-  .address-contact{
+  .address-contact {
     width: 100%;
   }
 
-  .address h1{
+  .address h1 {
     text-align: left;
   }
 
-  .recent-posts{
+  .recent-posts {
     margin-top: 15px;
   }
 
-  .recent p:first-of-type{
-  font: 10pt "MontserratLight";
-  margin: 10px 0 20px;
-  line-height: 24px;
-  color: #b2b2b2;
+  .recent p:first-of-type {
+    font: 10pt "MontserratLight";
+    margin: 10px 0 20px;
+    line-height: 24px;
+    color: #b2b2b2;
   }
 
-  .purchase2 > img{
+  .purchase2 > img {
     width: 50%;
   }
 
   .purchaseImage,
-  .checks{
+  .checks {
     width: 50%;
     float: left;
   }
 }
 
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width: 992px) {
 
-  header .container{
+  header .container {
     padding: 28px 0 0 0;
   }
 
-  .c-hamburger--rot{
+  .c-hamburger--rot {
     display: none;
   }
 
-  #nav{
+  #nav {
     display: block;
     margin-left: 35px;
     position: relative;
@@ -238,36 +238,36 @@
     z-index: 1;
   }
 
-  #nav li{
+  #nav li {
     display: inline-block;
     width: auto;
     margin-right: 17px;
     padding: 0 0 55px 0;
   }
 
-  .desSearch{
+  .desSearch {
     display: block;
   }
 
-  .mobSearch{
+  .mobSearch {
     display: none;
   }
 
-  .searchIcon{
+  .searchIcon {
     margin-top: -5px;
   }
 
-  main{
+  main {
     position: relative;
   }
 
-  .companyContent{
+  .companyContent {
     width: 50%;
     margin: 0 auto;
   }
 
-  .options{
-  overflow: hidden;
+  .options {
+    overflow: hidden;
   }
 
   .options .container > div {
@@ -275,35 +275,35 @@
     float: left;
   }
 
-  .triangle-down{
-  display: none;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #18cfab;
-  position: relative;
-  top: 31px;
-  left: 40%;
+  .triangle-down {
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #18cfab;
+    position: relative;
+    top: 31px;
+    left: 40%;
   }
 
-  .work_tabs{
+  .work_tabs {
     width: 755px;
     margin: 70px auto 0 auto;
   }
 
-  .work_tabs_cont .rows{
+  .work_tabs_cont .rows {
     width: 770px;
   }
 
-  .work_tabs label{
+  .work_tabs label {
     width: auto;
     padding: 25px 27px 20px 27px;
     margin-right: -5px;
     display: inline-block;
   }
 
-  .service_tabs label{
+  .service_tabs label {
     width: auto;
     float: left;
     padding: 27px 14px 30px;
@@ -312,11 +312,11 @@
     margin-bottom: 15px;
   }
 
-  .service_tabs label:last-of-type{
+  .service_tabs label:last-of-type {
     border-right: 1px solid #ebebeb;
   }
 
-  .service_tabs_cont{
+  .service_tabs_cont {
     clear: both;
   }
 
@@ -325,19 +325,19 @@
     margin: 0 auto;
   }
 
-  .funfact{
+  .funfact {
     overflow: hidden;
   }
 
   .Bag,
   .Man,
   .Basket,
-  .Location{
+  .Location {
     width: 50%;
     float: left;
   }
 
-  .our-team .container{
+  .our-team .container {
     width: 832px;
   }
 
@@ -351,167 +351,167 @@
 
   .rows .row1 > div,
   .rows .row2 > div,
-  .rows .row3 > div{
+  .rows .row3 > div {
     margin-right: 5px;
   }
 
-  .princingTable .container{
+  .princingTable .container {
     width: 853px;
   }
 
-  .princingTable4{
-    margin-left:0;
+  .princingTable4 {
+    margin-left: 0;
   }
 
-  .service_tabs label{
+  .service_tabs label {
     padding: 27px 20px 30px 20px;
   }
 
   .service_tabs label:first-of-type,
   .service_tabs label:nth-of-type(4),
-  .service_tabs label:last-of-type{
+  .service_tabs label:last-of-type {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .service_tabs label:nth-of-type(5){
+  .service_tabs label:nth-of-type(5) {
     padding: 27px 22px 30px 22px;
   }
 
-  .service_tabs{
+  .service_tabs {
     margin: 70px auto 0 auto;
     display: table;
   }
 }
 
-@media only screen and (min-width : 1200px){
+@media only screen and (min-width: 1200px) {
 
-  .logo{
+  .logo {
     width: 315px;
     display: inline-block;
     margin-left: 0;
   }
 
-  #nav{
+  #nav {
     display: inline-block;
     margin-left: 100px;
   }
 
-  .searchIcon{
+  .searchIcon {
     top: 50%;
   }
 
   .features section,
-  .features section:nth-of-type(odd){
-    margin-right: 50px;
+  .features section:nth-of-type(odd) {
+    margin-right: 80px;
   }
 
-  .features section{
+  .features section {
     width: 28%;
   }
 
   .work_tabs_cont .rows,
-  .work_tabs{
+  .work_tabs {
     width: 1140px;
   }
 
   .rows .row1 > div,
   .rows .row2 > div,
-  .rows .row3 > div{
+  .rows .row3 > div {
     margin-bottom: 0;
     margin-right: 0;
   }
 
-  .news{
+  .news {
     width: 1148px;
   }
 
   .princingTable .container,
-  .our-team .container{
+  .our-team .container {
     width: 1140px;
   }
 
-  .team:nth-of-type(5){
+  .team:nth-of-type(5) {
     margin-left: 20px;
   }
 
-  .contact .container{
+  .contact .container {
     width: 100%;
   }
 
-  .contact .image{
+  .contact .image {
     width: 50%;
     float: left;
   }
 
-  .contact-form{
+  .contact-form {
     width: 47%;
     float: left;
   }
 
-  .contact .image{
-    margin-right: 28px;
+  .contact .image {
+    margin-right: 31px;
   }
 
-  .contact h1{
+  .contact h1 {
     margin-top: -10px;
     text-align: left;
   }
 
-  .contact-form .line{
+  .contact-form .line {
     float: left;
     margin-left: 5px;
   }
 
-  footer .container{
+  footer .container {
     width: 1145px;
   }
 
   .address,
   .recent-posts,
-  .tags-newsletter-flicke-feed{
+  .tags-newsletter-flicke-feed {
     float: left;
   }
 
-  .address{
+  .address {
     width: 22%;
   }
 
-  .recent-posts{
+  .recent-posts {
     width: 27%;
     margin-right: 50px;
   }
 
-  .tags-newsletter-flicke-feed{
+  .tags-newsletter-flicke-feed {
     width: 43%;
     margin-top: 15px;
   }
 
-  .flicke-feed{
+  .flicke-feed {
     width: 37%;
     margin-left: 50px;
   }
 
-  .service_tabs label{
+  .service_tabs label {
     padding: 27px 30px 30px 30px;
   }
 
   .service_tabs label:first-of-type,
   .service_tabs label:nth-of-type(4),
-  .service_tabs label:last-of-type{
+  .service_tabs label:last-of-type {
     padding-left: 45px;
     padding-right: 45px;
   }
 
-  .service_tabs label:nth-of-type(5){
+  .service_tabs label:nth-of-type(5) {
     padding: 27px 22px 30px 22px;
   }
 
-  .service_tabs input:checked + label{
+  .service_tabs input:checked + label {
     padding-bottom: 21px;
   }
 
-  .service_tabs_cont .content{
+  .service_tabs_cont .content {
     width: 869px;
     display: inline-block;
   }
@@ -521,33 +521,149 @@
   #serviceOnlineSupport,
   #serviceAppPages,
   #serviceOnlineMarketing,
-  #serviceSeoService{
+  #serviceSeoService {
     display: flex;
+  }
+
+  .feedback .container {
+    width: 1140px;
+  }
+
+  .work .container {
+    width: 1145px;
+  }
+
+  .features .container {
+    width: 1102px;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div {
+    width: 285px;
+  }
+
+  .features section:nth-of-type(3n+3) {
+    margin-right: 0;
+  }
+
+  header .container {
+    margin: 0 auto;
+    width: 1173px;
+  }
+
+  .prev {
+    left: 305px;
+  }
+
+  .next {
+    right: 305px;
   }
 }
 
-@media only screen and (min-width: 1300px){
-
-  header .container{
-    margin: 0 auto;
-    width: 92%;
-  }
+@media only screen and (min-width: 1300px) {
 
   .companyImage,
-  .companyContent{
+  .companyContent {
     float: left;
   }
 
-  .companyImage{
+  .companyImage {
     width: 50%;
     margin-right: 73px;
   }
 
-  .companyContent{
+  .companyContent {
     width: 43%;
   }
 
-  .company h1{
+  .company h1 {
     margin-top: 0;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+
+  .slider {
+    clear: none;
+    float: right;
+    margin: -80px 200px 0 0;
+  }
+
+  .switch {
+    float: right;
+    margin: 50px -170px 0 auto;
+  }
+
+  .company {
+    padding-top: 99px;
+  }
+
+  .company .container {
+    width: 100%;
+  }
+
+  .companyImage {
+    width: 898px;
+    margin-top: 80px;
+    position: relative;
+    top: 4px;
+  }
+
+  .companyImage img {
+    width: auto;
+  }
+
+  .companyContent {
+    width: 35%;
+  }
+
+  .company_tabs label {
+    padding-bottom: 0;
+  }
+
+  #Skills {
+    padding-bottom: 0;
+  }
+
+  .purchaseImage {
+    width: 1122px;
+  }
+
+  .purchaseImage img {
+    width: auto;
+  }
+
+  .checks {
+    width: 27%;
+    margin-left: -100px;
+  }
+
+  .contact .image {
+    width: 944px;
+  }
+
+  .contact .contact-form {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .options .container > div {
+    width: 25%;
+  }
+
+  .Bag,
+  .Man,
+  .Basket,
+  .Location {
+    width: 25%;
+  }
+
+  .allContainer {
+    margin: 0 auto;
+    width: 1920px;
   }
 }
