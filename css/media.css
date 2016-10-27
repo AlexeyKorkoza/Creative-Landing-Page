@@ -1,5 +1,13 @@
 ﻿@media only screen and (min-width : 570px) {
 
+  .company_tabs label{
+    display: inline-block;
+  }
+
+  .company_tabs label:nth-of-type(2) {
+    margin: 0 20px;
+  }
+
   .home .buttons{
     text-align: center;
   }
@@ -12,7 +20,9 @@
     width: auto;
   }
 
-  .rows > div{
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div{
     width: 251px;
     float: left;
     margin-bottom: 10px;
@@ -33,23 +43,24 @@
   }
 
   .news{
-    width: 557px;
+    width: 574px;
     margin: 0 auto;
   }
 
   .new {
     float: left;
+    margin: 0 26px 30px 0;
   }
 
-  .new:nth-of-type(odd) {
-    margin-right: 28px;
+  .princingTable .container{
+    width: 566px;
   }
 
   .princingTable1,
   .princingTable2,
   .princingTable3,
   .princingTable4 {
-    width: 50%;
+    width: 283px;
     display: inline-block;
   }
 
@@ -96,12 +107,17 @@
   }
 
   .purchaseButton2{
-    text-align: left;
     width: 75%;
+    float: left;
+    margin-left: -23px;
   }
 
   .purchaseButton2 button{
     width: auto;
+  }
+
+  .purchaseImage img{
+    width: 100%;
   }
 
   .pagination{
@@ -138,18 +154,17 @@
   }
 }
 
+@media only screen and (min-width: 615px) {
+
+  .progress-bar{
+    width: 556px;
+  }
+}
+
 @media only screen and (min-width : 768px) {
 
   .search{
     padding-right: 502px;
-  }
-
-  .company_tabs label{
-    display: inline-block;
-  }
-
-  .company_tabs label:nth-of-type(2){
-    margin: 0 20px;
   }
 
   .features section{
@@ -193,6 +208,16 @@
   line-height: 24px;
   color: #b2b2b2;
   }
+
+  .purchase2 > img{
+    width: 50%;
+  }
+
+  .purchaseImage,
+  .checks{
+    width: 50%;
+    float: left;
+  }
 }
 
 @media only screen and (min-width : 992px) {
@@ -220,12 +245,25 @@
     padding: 0 0 55px 0;
   }
 
+  .desSearch{
+    display: block;
+  }
+
+  .mobSearch{
+    display: none;
+  }
+
   .searchIcon{
     margin-top: -5px;
   }
 
   main{
     position: relative;
+  }
+
+  .companyContent{
+    width: 50%;
+    margin: 0 auto;
   }
 
   .options{
@@ -245,7 +283,7 @@
   border-right: 10px solid transparent;
   border-top: 10px solid #18cfab;
   position: relative;
-  top: 30px;
+  top: 31px;
   left: 40%;
   }
 
@@ -255,7 +293,7 @@
   }
 
   .work_tabs_cont .rows{
-    width: 755px;
+    width: 770px;
   }
 
   .work_tabs label{
@@ -283,20 +321,8 @@
   }
 
   .news {
-    width: 839px;
+    width: 861px;
     margin: 0 auto;
-  }
-
-  .new{
-    margin: 0 0 30px 0;
-  }
-
-  .new:nth-of-type(odd) {
-    margin-right: 0;
-  }
-
-  .new:nth-of-type(3n+2) {
-    margin: 0 28px;
   }
 
   .funfact{
@@ -311,18 +337,6 @@
     float: left;
   }
 
-  .princingTable1, .princingTable2, .princingTable3, .princingTable4{
-    width: 33%;
-  }
-
-  .princingTable1, .princingTable2 {
-    margin-right: 0;
-  }
-
-  .princingTable4{
-    margin-left: 0;
-  }
-
   .our-team .container{
     width: 832px;
   }
@@ -333,5 +347,207 @@
 
   .team:nth-of-type(3n+3) {
     margin: 29px 20px 0 20px;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div{
+    margin-right: 5px;
+  }
+
+  .princingTable .container{
+    width: 853px;
+  }
+
+  .princingTable4{
+    margin-left:0;
+  }
+
+  .service_tabs label{
+    padding: 27px 20px 30px 20px;
+  }
+
+  .service_tabs label:first-of-type,
+  .service_tabs label:nth-of-type(4),
+  .service_tabs label:last-of-type{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .service_tabs label:nth-of-type(5){
+    padding: 27px 22px 30px 22px;
+  }
+
+  .service_tabs{
+    margin: 70px auto 0 auto;
+    display: table;
+  }
+}
+
+@media only screen and (min-width : 1200px){
+
+  .logo{
+    width: 315px;
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  #nav{
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .searchIcon{
+    top: 50%;
+  }
+
+  .features section,
+  .features section:nth-of-type(odd){
+    margin-right: 50px;
+  }
+
+  .features section{
+    width: 28%;
+  }
+
+  .work_tabs_cont .rows,
+  .work_tabs{
+    width: 1140px;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div{
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .news{
+    width: 1148px;
+  }
+
+  .princingTable .container,
+  .our-team .container{
+    width: 1140px;
+  }
+
+  .team:nth-of-type(5){
+    margin-left: 20px;
+  }
+
+  .contact .container{
+    width: 100%;
+  }
+
+  .contact .image{
+    width: 50%;
+    float: left;
+  }
+
+  .contact-form{
+    width: 47%;
+    float: left;
+  }
+
+  .contact .image{
+    margin-right: 28px;
+  }
+
+  .contact h1{
+    margin-top: -10px;
+    text-align: left;
+  }
+
+  .contact-form .line{
+    float: left;
+    margin-left: 5px;
+  }
+
+  footer .container{
+    width: 1145px;
+  }
+
+  .address,
+  .recent-posts,
+  .tags-newsletter-flicke-feed{
+    float: left;
+  }
+
+  .address{
+    width: 22%;
+  }
+
+  .recent-posts{
+    width: 27%;
+    margin-right: 50px;
+  }
+
+  .tags-newsletter-flicke-feed{
+    width: 43%;
+    margin-top: 15px;
+  }
+
+  .flicke-feed{
+    width: 37%;
+    margin-left: 50px;
+  }
+
+  .service_tabs label{
+    padding: 27px 30px 30px 30px;
+  }
+
+  .service_tabs label:first-of-type,
+  .service_tabs label:nth-of-type(4),
+  .service_tabs label:last-of-type{
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .service_tabs label:nth-of-type(5){
+    padding: 27px 22px 30px 22px;
+  }
+
+  .service_tabs input:checked + label{
+    padding-bottom: 21px;
+  }
+
+  .service_tabs_cont .content{
+    width: 869px;
+    display: inline-block;
+  }
+
+  #serviceWebDesign,
+  #serviceGraphicDesign,
+  #serviceOnlineSupport,
+  #serviceAppPages,
+  #serviceOnlineMarketing,
+  #serviceSeoService{
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+
+  header .container{
+    margin: 0 auto;
+    width: 92%;
+  }
+
+  .companyImage,
+  .companyContent{
+    float: left;
+  }
+
+  .companyImage{
+    width: 50%;
+    margin-right: 73px;
+  }
+
+  .companyContent{
+    width: 43%;
+  }
+
+  .company h1{
+    margin-top: 0;
   }
 }

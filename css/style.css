@@ -26,6 +26,7 @@ header .container{
 
 .logo{
   margin-bottom: 35px;
+  margin-top: 25px;
 }
 
 .logo .text{
@@ -38,6 +39,7 @@ header .container{
 
 .logo .text span{
   color: #18cfab;
+  margin-left: -10px;
 }
 
 .c-hamburger {
@@ -125,7 +127,7 @@ header .container{
 
 #nav li a{
   text-decoration: none;
-  font: 10pt "MontserratBold";
+  font: 11pt "MontserratBold";
   color: #b8b8b8;
 }
 
@@ -170,14 +172,24 @@ header .container{
   border-top: 15px solid #18cfab;
 }
 
+.desSearch{
+    display: none;
+    position: relative;
+    top: 5px;
+}
+
+.mobSearch{
+    display: block;
+}
+
 main{
   overflow: hidden;
 }
 
 .searchIcon{
-  margin:10px 30px 0 0;
   position:absolute;
   right:0;
+  margin:10px 30px 0 0;
 }
 
 .searchInput{
@@ -404,9 +416,10 @@ main{
 .company{
   padding-top: 179px;
   background:#090f14;
+  overflow: hidden;
 }
 
-.company .container > img {
+.companyImage img {
   width: 100%;
 }
 
@@ -642,7 +655,9 @@ main{
   margin-top: 70px;
 }
 
-.rows > div{
+.rows .row1 > div,
+.rows .row2 > div,
+.rows .row3 > div{
   height: 210px;
   width: 285px;
   margin: auto;
@@ -663,23 +678,35 @@ main{
   display: none;
 }
 
-.rows > div:nth-of-type(odd){
+.rows .row1 > div:nth-of-type(odd),
+.rows .row2 > div:nth-of-type(even),
+.rows .row3 > div:nth-of-type(odd){
   background: #8a8a8a;
 }
 
-.rows > div:nth-of-type(even){
+.rows .row1 > div:nth-of-type(even),
+.rows .row2 > div:nth-of-type(odd),
+.rows .row3 > div:nth-of-type(even){
   background: #24413e;
 }
 
-.rows > div:hover{
+.rows .row1 > div:hover,
+.rows .row2 > div:hover,
+.rows .row3 > div:hover{
   background: white;
   border:1px solid #ebebeb;
   border-top: 3px solid #18cfab;
 }
 
-.rows > div:hover h1,
-.rows > div:hover .images,
-.rows > div:hover p{
+.rows .row1 > div:hover h1,
+.rows .row1 > div:hover .images,
+.rows .row1 > div:hover p,
+.rows .row2 > div:hover h1,
+.rows .row2 > div:hover .images,
+.rows .row2 > div:hover p,
+.rows .row3 > div:hover h1,
+.rows .row3 > div:hover .images,
+.rows .row3 > div:hover p{
   display: block;
 }
 
@@ -739,7 +766,7 @@ main{
 
 .service_tabs label{
   color: #717171;
-  font: 13pt "MontserratRegular";
+  font: 11.5pt "MontserratRegular";
   cursor: pointer;
   border: 1px solid #ebebeb;
   width: 100%;
@@ -758,7 +785,7 @@ main{
   top: 0;
   color: white;
   background: #18cfab;
-  padding-bottom: 20px;
+  padding-bottom: 21px;
 }
 
 .service_tabs_cont{
@@ -787,7 +814,7 @@ main{
 }
 
 .service_tabs_cont .content{
-  font: 11pt "MontserratLight";
+  font: 9.5pt "MontserratLight";
   color: #777777;
   line-height: 22px;
   margin-top: 22px;
@@ -797,8 +824,8 @@ main{
   background: #797979;
   height: 139px;
   width: 192px;
-  float: left;
   margin: 5px 20px 0 0;
+  float: left;
 }
 
 .service_tabs label:first-of-type .triangle-down{
@@ -1422,17 +1449,20 @@ main{
   margin: 15px 0 97px 0;
 }
 
+.purchaseImage{
+  width: 100%;
+}
 
-.purchase2 img{
+.purchaseImage img{
   width: 100%;
   display: block;
   margin-bottom: 30px;
 }
 
 .checks{
+  overflow: hidden;
   margin: 0 auto;
   width: 75%;
-  overflow: hidden;
 }
 
 .checkMarksText,.checkMarks{
@@ -1456,8 +1486,7 @@ main{
 }
 
 .purchaseButton2{;
-  width: 65%;;
-  margin: 70px auto 215px auto;;
+  margin: 70px 0 215px 0;;
 }
 
 .purchaseButton2 button{
@@ -1509,7 +1538,7 @@ main{
 
 .contact .Name,
 .contact .Email{
-  padding: 22px 0 22px 18px;
+  padding: 18px 0 18px 18px;
 }
 
 .contact .Name{
@@ -1528,12 +1557,12 @@ main{
 
 .contact button{
   border: none;
-  border-bottom: 5px solid #08bf9b;
+  border-bottom: 7px solid #08bf9b;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 23px 33px;
+  padding: 18px 33px;
   color: white;
   font: 10pt "MontserratBold";
   background: #18cfab;
@@ -1581,7 +1610,7 @@ footer{
 
 .recent-posts > h1{
   color: white;
-  font: 15pt "MontserratBold";
+  font: 13pt "MontserratBold";
 }
 
 .recent{
@@ -1602,7 +1631,7 @@ footer{
 }
 
 .recent h1{
-  font: 14pt "MontserratBold";
+  font: 11pt "MontserratBold";
   color: white;
 }
 
@@ -1641,7 +1670,7 @@ footer{
 
 .tags > h1{
   color: white;
-  font: 15pt "MontserratBold";
+  font: 13pt "MontserratBold";
   display: block;
   margin-bottom: 50px;
   text-align: center;
@@ -1674,7 +1703,7 @@ footer{
 
 .newsletter h1{
   color: white;
-  font: 15pt "MontserratBold";
+  font: 13pt "MontserratBold";
   text-align: center;
 }
 
@@ -1708,7 +1737,7 @@ footer{
 
 .flicke-feed h1{
   color: white;
-  font: 15pt "MontserratBold";
+  font: 13pt "MontserratBold";
   display: block;
   margin-bottom: 53px;
   text-align: center;
