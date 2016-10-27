@@ -7,7 +7,13 @@ $(document).ready(function () {
 
 /* Open or close searchInput */
 $(document).ready(function(){
-  $("#searchIcon").click(function(){
+  $(".desSearch").click(function(){
+    $("#searchInput").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $(".mobSearch").click(function(){
     $("#searchInput").toggle();
   });
 });
