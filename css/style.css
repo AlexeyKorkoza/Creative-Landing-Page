@@ -249,7 +249,7 @@ main {
   padding-bottom: 140px;
 }
 
-.home .buttons button {
+.home .buttons input[type=submit] {
   border: none;
   border-top: 5px solid white;
   border-top-left-radius: 5px;
@@ -264,7 +264,7 @@ main {
   margin-bottom: 15px;
 }
 
-.home .buttons button:last-of-type {
+.home .buttons input[type=submit]:last-of-type {
   background: #00cbf6;
 }
 
@@ -740,7 +740,7 @@ main {
   width: 285px;
 }
 
-.LoadMore button {
+.LoadMore input[type="submit"] {
   background: #18cfab;
   border: none;
   font: 11pt "MontserratBold";
@@ -749,7 +749,7 @@ main {
   width: 285px;
 }
 
-.LoadMore button img {
+.LoadMore img {
   position: relative;
   top: 3px;
   margin-right: 5px;
@@ -863,7 +863,7 @@ main {
   width: 65%;
 }
 
-.purchase1 button {
+.purchase1 input[type="submit"] {
   border: none;
   border-top: 5px solid white;
   border-top-left-radius: 5px;
@@ -1111,10 +1111,10 @@ main {
   border-bottom: none;
 }
 
-.princingTable1 > div:last-of-type button,
-.princingTable2 > div:last-of-type button,
-.princingTable3 > div:last-of-type button,
-.princingTable4 > div:last-of-type button {
+.princingTable1 > div:last-of-type input[type="submit"],
+.princingTable2 > div:last-of-type input[type="submit"],
+.princingTable3 > div:last-of-type input[type="submit"],
+.princingTable4 > div:last-of-type input[type="submit"] {
   background: #2e4a5b;
   padding: 20px 53px 20px 48px;
   border: none;
@@ -1123,7 +1123,7 @@ main {
   font: 11pt "MontserratBold";
 }
 
-.princingTable3 > div:last-of-type button,
+.princingTable3 > div:last-of-type input[type="submit"],
 .princingTable3 .cost {
   background: #18cfab;
 }
@@ -1493,7 +1493,7 @@ main {
   margin: 70px 0 215px 0;;
 }
 
-.purchaseButton2 button {
+.purchaseButton2 input[type="submit"] {
   border: none;
   border-top: 5px solid white;
   border-top-left-radius: 5px;
@@ -1532,7 +1532,7 @@ main {
 
 .contact .Name,
 .contact .Email,
-.contact button,
+.contact input[type="submit"],
 .contact .Message {
   width: 100%;
   color: #90aebd;
@@ -1559,7 +1559,7 @@ main {
   resize: none;
 }
 
-.contact button {
+.contact input[type="submit"] {
   border: none;
   border-bottom: 7px solid #08bf9b;
   border-top-left-radius: 5px;
@@ -1726,7 +1726,7 @@ footer {
   color: #434f55;
 }
 
-.enterMail button {
+.enterMail input[type="submit"] {
   padding: 16px 12px 14px 10px;
   font: 11pt "MontserratBold";
   background: #294453;
