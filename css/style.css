@@ -685,16 +685,19 @@ main {
   background: #18cfab;
   border: none;
   font: 11pt "MontserratBold";
-  padding: 20px;
+  padding: 23px 23px 23px 50px;
   color: white;
-  width: 285px;
+  width: 165px;
   cursor: pointer;
+  border-radius: 5px;
+  display: table;
+  margin: 0 auto;
 }
 
 .LoadMore img {
   position: relative;
-  top: 3px;
-  margin-right: 5px;
+  top: -40px;
+  right: -80px;
 }
 
 .services h1 {
