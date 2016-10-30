@@ -262,6 +262,7 @@ main {
   background: #18cfab;
   width: 100%;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .home .buttons input[type=submit]:last-of-type {
@@ -687,6 +688,7 @@ main {
   padding: 20px;
   color: white;
   width: 285px;
+  cursor: pointer;
 }
 
 .LoadMore img {
@@ -816,6 +818,7 @@ main {
   background: #18cfab;
   margin-bottom: 15px;
   width: 100%;
+  cursor: pointer;
 }
 
 .breaking {
@@ -1061,6 +1064,7 @@ main {
   color: white;
   border-radius: 5px;
   font: 11pt "MontserratBold";
+  cursor: pointer;
 }
 
 .princingTable3 > div:last-of-type input[type="submit"],
@@ -1446,6 +1450,7 @@ main {
   background: #18cfab;
   width: 100%;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .contact {
@@ -1478,6 +1483,7 @@ main {
   color: #90aebd;
   border: 1px solid #dce6e4;
   font: 10pt "MontserratLight";
+  cursor: pointer;
 }
 
 .contact .Name,
@@ -1511,6 +1517,7 @@ main {
   font: 10pt "MontserratBold";
   background: #18cfab;
   margin-bottom: 128px;
+  cursor: pointer;
 }
 
 footer {
@@ -1673,6 +1680,7 @@ footer {
   color: #18cfab;
   border: none;
   margin-left: -4px;
+  cursor: pointer;
 }
 
 .flicke-feed {
