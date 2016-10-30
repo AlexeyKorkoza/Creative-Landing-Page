@@ -363,6 +363,10 @@ main {
   overflow: hidden;
 }
 
+.company .line{
+  margin-bottom: 70px;
+}
+
 .companyImage img {
   width: 100%;
 }
