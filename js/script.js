@@ -96,10 +96,8 @@ function checkService(index){
 
 var htmlWidth = $("html").innerWidth();
 if(htmlWidth < 992) {
-  $('.mobSearch').css('display', 'none');
-  $('.desSearch').css('display', 'block');
+  $('.desSearch').remove();
 }
 else {
-  $('.desSearch').css('display', 'none');
-  $('.mobSearch').css('display', 'block');
+  $('.mobSearch').remove();
 }
