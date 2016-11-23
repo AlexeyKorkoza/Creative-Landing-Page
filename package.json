@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AlexeyKorkoza/Creative-Landing-Page/issues"
   },
-  "homepage": "https://github.com/AlexeyKorkoza/Creative-Landing-Page#readme"
+  "homepage": "https://github.com/AlexeyKorkoza/Creative-Landing-Page#readme",
+  "dependencies": {
+    "jquery.2": "^1.0.0"
+  }
 }

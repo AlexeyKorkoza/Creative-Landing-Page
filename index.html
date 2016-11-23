@@ -1087,32 +1087,9 @@
   <div class="copyright">Copyright 2015 <span class="text">theHam</span> | All Rights Reserved</div>
 </div>
 
-<!--[if lt IE 9]>
-<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.0/mootools-yui-compressed.js"></script>
-<![endif]-->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/slides.min.jquery.js"></script>
-<script>
-  $(function () {
-    $('#slides').slides({
-      preload: true,
-      play: 5000,
-      pause: 2500,
-      hoverPause: true,
-      animationStart: function () {
-        $('.caption').animate({
-          bottom: -35
-        }, 100);
-      },
-      animationComplete: function (current) {
-        $('.caption').animate({
-          bottom: 0
-        }, 200);
-      }
-    });
-  });
-</script>
+<script src="js/settingSlides.js"></script>
 </body>
 </html>
