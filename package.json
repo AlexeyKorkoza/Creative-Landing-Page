@@ -15,13 +15,15 @@
     "test"
   ],
   "author": "Alexey Korkoza",
-  "license": "MIT",
-  "bugs": {
+    "license": "MIT",
+    "bugs": {
     "url": "https://github.com/AlexeyKorkoza/Creative-Landing-Page/issues"
   },
   "homepage": "https://github.com/AlexeyKorkoza/Creative-Landing-Page#readme",
   "dependencies": {
-    "jquery.2": "^1.0.0",
-    "webpack": "^1.13.3"
-  }
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "jquery.2": "^1.0.0"
+  },
+  "devDependencies": {}
 }
