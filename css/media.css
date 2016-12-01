@@ -9,14 +9,19 @@
   }
 
   .home .buttons {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
-  .home .buttons button:first-of-type {
+  .home .buttons input[type=submit]:first-of-type{
     margin-right: 28px;
   }
 
-  .home .buttons button {
+  .home .buttons input[type=submit] {
+    width: 165px;
+  }
+
+  .home .buttons input[type=submit] {
     width: auto;
   }
 
@@ -73,7 +78,7 @@
     text-align: center;
   }
 
-  .purchase1 button {
+  .purchase1 input[type=submit] {
     width: auto;
   }
 
@@ -112,7 +117,7 @@
     margin-left: -23px;
   }
 
-  .purchaseButton2 button {
+  .purchaseButton2 input[type=submit] {
     width: auto;
   }
 
