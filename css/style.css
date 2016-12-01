@@ -994,7 +994,7 @@ main {
   margin-top: 10px;
 }
 
-.princingTable h1 {
+.princingTables h1 {
   text-align: center;
   font: 30pt "MontserratRegular";
   color: #4e4e4e;
@@ -1737,7 +1737,7 @@ footer {
 .company .container,
 .work .container,
 .services .container,
-.princingTable .container,
+.princingTables .container,
 .feedback .container,
 .our-team .container,
 .contact .container,
@@ -1756,4 +1756,13 @@ footer .container {
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;
+}
+
+/* Required for scroll */
+.hidden{
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
 }
