@@ -222,7 +222,11 @@
 
 @media only screen and (min-width: 992px) {
 
-  header .container {
+  #header{
+    padding-bottom: 0;
+  }
+
+  #header .container {
     padding: 28px 0 0 0;
   }
 
@@ -547,7 +551,7 @@
     margin-right: 0;
   }
 
-  header .container {
+  #header .container {
     margin: 0 auto;
     width: 1173px;
   }

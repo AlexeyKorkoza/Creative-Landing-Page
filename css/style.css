@@ -15,13 +15,13 @@
   transform: skewX(45deg);
 }
 
-header {
+#header {
   background: #44433e;
-  position: relative;
+  padding-bottom: 20px;
 }
 
-header .container {
-  padding: 28px 0 20px 0;
+#header .container {
+  padding: 28px 0 0 0;
 }
 
 .logo {
@@ -165,7 +165,7 @@ header .container {
 #hexagon:after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  bottom: -14px;
   left: 0;
   width: 0;
   height: 0;
@@ -223,6 +223,10 @@ main {
   padding-bottom: 126px;
   overflow: hidden;
   position: relative;
+}
+
+.home .text{
+  margin-top: 200px;
 }
 
 .home .text p {
@@ -1740,4 +1744,16 @@ footer {
 footer .container {
   width: 90%;
   margin: 0 auto;
+}
+
+/* fix menu */
+.cbp-af-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
 }
