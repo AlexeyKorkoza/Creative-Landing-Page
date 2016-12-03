@@ -1766,3 +1766,689 @@ footer .container {
 .visible{
   opacity: 1;
 }
+
+/*
+Media Queries
+*/
+@media only screen and (min-width: 570px) {
+
+  .company_tabs label {
+    display: inline-block;
+  }
+
+  .company_tabs label:nth-of-type(2) {
+    margin: 0 20px;
+  }
+
+  .home .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home .buttons input[type=submit]:first-of-type{
+    margin-right: 28px;
+  }
+
+  .home .buttons input[type=submit] {
+    width: 165px;
+  }
+
+  .home .buttons input[type=submit] {
+    width: auto;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div {
+    width: 251px;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #History ul li {
+    width: 49%;
+    display: inline-block;
+  }
+
+  .breaking {
+    overflow: hidden;
+  }
+
+  .breaking .container {
+    margin: 0 auto;
+    width: 97%;
+  }
+
+  .news {
+    width: 574px;
+    margin: 0 auto;
+  }
+
+  .new {
+    float: left;
+    margin: 0 26px 30px 0;
+  }
+
+  .princingTable .container {
+    width: 566px;
+  }
+
+  .princingTable1,
+  .princingTable2,
+  .princingTable3,
+  .princingTable4 {
+    width: 283px;
+    display: inline-block;
+  }
+
+  .princingTable2,
+  .princingTable4 {
+    margin-left: -4px;
+  }
+
+  .purchaseButton {
+    text-align: center;
+  }
+
+  .purchase1 input[type=submit] {
+    width: auto;
+  }
+
+  .our-team .container {
+    width: 558px;
+  }
+
+  .our-team {
+    overflow: hidden;
+  }
+
+  .team {
+    float: left;
+  }
+
+  .team:nth-of-type(odd) {
+    margin-left: 20px;
+  }
+
+  .LoadMore {
+    margin-top: 70px;
+  }
+
+  .work_tabs {
+    overflow: hidden;
+  }
+
+  .work_tabs_cont .rows {
+    margin: 0 auto;
+    width: 512px;
+  }
+
+  .purchaseButton2 {
+    width: 75%;
+    float: left;
+    margin-left: -23px;
+  }
+
+  .purchaseButton2 input[type=submit] {
+    width: auto;
+  }
+
+  .purchaseImage img {
+    width: 100%;
+  }
+
+  .pagination {
+    margin: 0 auto;
+    display: table;
+  }
+
+  .pagination li {
+    display: table-cell;
+    padding-right: 30px;
+  }
+
+  .tags-newsletter,
+  .flicke-feed {
+    width: 50%;
+    float: left;
+  }
+
+  .flicke-feed {
+    margin: 0 0 0 25px;
+    width: 45%;
+  }
+
+  .flicke-feed > h1,
+  .tags > h1,
+  .newsletter > h1 {
+    text-align: left;
+  }
+
+  .address-office,
+  .address-contact {
+    width: 49%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 615px) {
+
+  .progress-bar {
+    width: 556px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .search {
+    padding-right: 502px;
+  }
+
+  .features section {
+    display: inline-block;
+    width: 43%;
+  }
+
+  .features section:nth-of-type(odd) {
+    margin-right: 80px;
+  }
+
+  .address, .recent-posts {
+    float: left;
+  }
+
+  .address {
+    width: 40%;
+    margin-right: 40px;
+  }
+
+  .recent-posts {
+    width: 50%;
+  }
+
+  .address-office,
+  .address-contact {
+    width: 100%;
+  }
+
+  .address h1 {
+    text-align: left;
+  }
+
+  .recent-posts {
+    margin-top: 15px;
+  }
+
+  .recent p:first-of-type {
+    font: 10pt "MontserratLight";
+    margin: 10px 0 20px;
+    line-height: 24px;
+    color: #b2b2b2;
+  }
+
+  .purchase2 > img {
+    width: 50%;
+  }
+
+  .purchaseImage,
+  .checks {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  #header{
+    padding-bottom: 0;
+  }
+
+  #header .container {
+    padding: 28px 0 0 0;
+  }
+
+  .c-hamburger--rot {
+    display: none;
+  }
+
+  #nav {
+    display: block;
+    margin-left: 35px;
+    position: relative;
+    top: 2px;
+    z-index: 1;
+  }
+
+  #nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 17px;
+    padding: 0 0 55px 0;
+  }
+
+  .desSearch {
+    display: block;
+  }
+
+  .mobSearch {
+    display: none;
+  }
+
+  .searchIcon {
+    margin-top: -5px;
+  }
+
+  main {
+    position: relative;
+  }
+
+  .companyContent {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .options {
+    overflow: hidden;
+  }
+
+  .options .container > div {
+    width: 50%;
+    float: left;
+  }
+
+  .triangle-down {
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #18cfab;
+    position: relative;
+    top: 31px;
+    left: 40%;
+  }
+
+  .work_tabs {
+    width: 755px;
+    margin: 70px auto 0 auto;
+  }
+
+  .work_tabs_cont .rows {
+    width: 770px;
+  }
+
+  .work_tabs label {
+    width: auto;
+    padding: 25px 27px 20px 27px;
+    margin-right: -5px;
+    display: inline-block;
+  }
+
+  .service_tabs label {
+    width: auto;
+    float: left;
+    padding: 27px 14px 30px;
+    border: 1px solid #ebebeb;
+    border-right: none;
+    margin-bottom: 15px;
+  }
+
+  .service_tabs label:last-of-type {
+    border-right: 1px solid #ebebeb;
+  }
+
+  .service_tabs_cont {
+    clear: both;
+  }
+
+  .news {
+    width: 861px;
+    margin: 0 auto;
+  }
+
+  .funfact {
+    overflow: hidden;
+  }
+
+  .Bag,
+  .Man,
+  .Basket,
+  .Location {
+    width: 50%;
+    float: left;
+  }
+
+  .our-team .container {
+    width: 832px;
+  }
+
+  .team:nth-of-type(odd) {
+    margin-left: 0;
+  }
+
+  .team:nth-of-type(3n+3) {
+    margin: 29px 20px 0 20px;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div {
+    margin-right: 5px;
+  }
+
+  .princingTable .container {
+    width: 853px;
+  }
+
+  .princingTable4 {
+    margin-left: 0;
+  }
+
+  .service_tabs label {
+    padding: 27px 20px 30px 20px;
+  }
+
+  .service_tabs label:first-of-type,
+  .service_tabs label:nth-of-type(4),
+  .service_tabs label:last-of-type {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .service_tabs label:nth-of-type(5) {
+    padding: 27px 22px 30px 22px;
+  }
+
+  .service_tabs {
+    margin: 70px auto 0 auto;
+    display: table;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .logo {
+    width: 315px;
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  #nav {
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .searchIcon {
+    top: 50%;
+  }
+
+  .features section,
+  .features section:nth-of-type(odd) {
+    margin-right: 80px;
+  }
+
+  .features section {
+    width: 28%;
+  }
+
+  .work_tabs_cont .rows,
+  .work_tabs {
+    width: 1140px;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .news {
+    width: 1148px;
+  }
+
+  .princingTable .container,
+  .our-team .container {
+    width: 1140px;
+  }
+
+  .team:nth-of-type(5) {
+    margin-left: 20px;
+  }
+
+  .contact .container {
+    width: 100%;
+  }
+
+  .contact .image {
+    width: 50%;
+    float: left;
+  }
+
+  .contact-form {
+    width: 47%;
+    float: left;
+  }
+
+  .contact .image {
+    margin-right: 31px;
+  }
+
+  .contact h1 {
+    margin-top: -10px;
+    text-align: left;
+  }
+
+  .contact-form .line {
+    float: left;
+    margin-left: 5px;
+  }
+
+  footer .container {
+    width: 1145px;
+  }
+
+  .address,
+  .recent-posts,
+  .tags-newsletter-flicke-feed {
+    float: left;
+  }
+
+  .address {
+    width: 22%;
+  }
+
+  .recent-posts {
+    width: 27%;
+    margin-right: 50px;
+  }
+
+  .tags-newsletter-flicke-feed {
+    width: 43%;
+    margin-top: 15px;
+  }
+
+  .flicke-feed {
+    width: 37%;
+    margin-left: 50px;
+  }
+
+  .service_tabs label {
+    padding: 27px 30px 30px 30px;
+  }
+
+  .service_tabs label:first-of-type,
+  .service_tabs label:nth-of-type(4),
+  .service_tabs label:last-of-type {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .service_tabs label:nth-of-type(5) {
+    padding: 27px 22px 30px 22px;
+  }
+
+  .service_tabs input:checked + label {
+    padding-bottom: 21px;
+  }
+
+  .service_tabs_cont .content {
+    width: 869px;
+    display: inline-block;
+  }
+
+  #serviceWebDesign,
+  #serviceGraphicDesign,
+  #serviceOnlineSupport,
+  #serviceAppPages,
+  #serviceOnlineMarketing,
+  #serviceSeoService {
+    display: flex;
+  }
+
+  .feedback .container {
+    width: 1140px;
+  }
+
+  .work .container {
+    width: 1145px;
+  }
+
+  .features .container {
+    width: 1102px;
+  }
+
+  .rows .row1 > div,
+  .rows .row2 > div,
+  .rows .row3 > div {
+    width: 285px;
+  }
+
+  .features section:nth-of-type(3n+3) {
+    margin-right: 0;
+  }
+
+  #header .container {
+    margin: 0 auto;
+    width: 1173px;
+  }
+
+  .prev {
+    left: 305px;
+  }
+
+  .next {
+    right: 305px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+
+  .princingTables .container{
+    text-align: center;
+  }
+
+  .companyImage,
+  .companyContent {
+    float: left;
+  }
+
+  .companyImage {
+    width: 50%;
+    margin-right: 73px;
+  }
+
+  .companyContent {
+    width: 43%;
+  }
+
+  .company h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+
+  .slider {
+    clear: none;
+    float: right;
+    margin: -80px 200px 0 0;
+  }
+
+  .switch {
+    float: right;
+    margin: 50px -170px 0 auto;
+  }
+
+  .company {
+    padding-top: 99px;
+  }
+
+  .company .container {
+    width: 100%;
+  }
+
+  .companyImage {
+    width: 898px;
+    margin-top: 80px;
+    position: relative;
+    top: 4px;
+  }
+
+  .companyImage img {
+    width: auto;
+  }
+
+  .companyContent {
+    width: 35%;
+  }
+
+  .company_tabs label {
+    padding-bottom: 0;
+  }
+
+  #Skills {
+    padding-bottom: 0;
+  }
+
+  .purchaseImage {
+    width: 1122px;
+  }
+
+  .purchaseImage img {
+    width: auto;
+  }
+
+  .checks {
+    width: 27%;
+    margin-left: -100px;
+  }
+
+  .contact .image {
+    width: 944px;
+  }
+
+  .contact .contact-form {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .options .container > div {
+    width: 25%;
+  }
+
+  .Bag,
+  .Man,
+  .Basket,
+  .Location {
+    width: 25%;
+  }
+
+  .allContainer {
+    margin: 0 auto;
+    width: 1920px;
+  }
+}
