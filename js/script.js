@@ -101,3 +101,7 @@ if(htmlWidth < 992) {
 else {
   $('.mobSearch').remove();
 }
+
+$(function(){
+  $("#Email_contact").mask(("{1,20}@{1,20}.*{3}"));
+});

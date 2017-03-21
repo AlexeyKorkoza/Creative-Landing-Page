@@ -1494,7 +1494,6 @@ main {
   color: #90aebd;
   border: 1px solid #dce6e4;
   font: 10pt "MontserratLight";
-  cursor: pointer;
 }
 
 .contact .Name,
@@ -2447,8 +2446,4 @@ Media Queries
     width: 25%;
   }
 
-  .allContainer {
-    margin: 0 auto;
-    width: 1920px;
-  }
 }
