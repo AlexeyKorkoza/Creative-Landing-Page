@@ -10,8 +10,17 @@ var gulp = require('gulp'),
   concat = require('gulp-concat'),
   csslint = require('gulp-csslint'),
   jscpd = require('gulp-jscpd'),
-  connect = require('gulp-connect'),
+  browserSync = require('browser-sync'),
   imageop = require('gulp-image-optimization');
+
+gulp.task('browser-sync', function() {
+  browserSync({
+    server: {
+      baseDir: ''
+    },
+    notify: false
+  });
+});
 
 gulp.task('scripts', function() {
   return gulp.src(['node_modules/jquery.2/node_modules/jquery/dist/jquery.js','js/*.js'])
@@ -54,12 +63,4 @@ gulp.task('watch', function() {
     gulp.watch(['img/*'],['images']);
 });
 
-gulp.task('connect', function () {
-  connect.server({
-    root: "",
-    port: 8080,
-    livereload: true
-  });
-});
-
-gulp.task('default', ['scripts', 'styles', 'watch', 'connect', 'images']);
+gulp.task('default', ['scripts', 'styles', 'watch', 'browser-sync', 'images']);
